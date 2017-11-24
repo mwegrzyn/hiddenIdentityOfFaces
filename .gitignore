@@ -1,0 +1,17 @@
+notebooks/.ipynb_checkpoints/**
+venv/**
+
+
+# ignore stimuli
+CFMT/experiment/stim/**
+famousFiltered/experiment/img/**
+famousInner/experiment/greyInner/**
+famousCheck/experiment/img/**
+faceEmotion/experiment/stim/**
+faceAttract/experiment/stimuli/**
+
+manuscript/**
+literature/**
+x/**
+
+**/*.pyc
