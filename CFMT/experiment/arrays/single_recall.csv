@@ -1,0 +1,7 @@
+num,learn1,learn2,learn3,recall1,recall2,recall3
+1,./stim/LearnLA004.jpg,./stim/LearnFA004.jpg,./stim/LearnRA004.jpg,./stim/LearnLA004_T1.jpg,./stim/LearnFA004_T3.jpg,./stim/LearnRA004_T3.jpg
+2,./stim/LearnLA011.jpg,./stim/LearnFA011.jpg,./stim/LearnRA011.jpg,./stim/LearnLA011_T2.jpg,./stim/LearnFA011_T3.jpg,./stim/LearnRA011_T3.jpg
+3,./stim/LearnLA022.jpg,./stim/LearnFA022.jpg,./stim/LearnRA022.jpg,./stim/LearnLA022_T3.jpg,./stim/LearnFA022_T1.jpg,./stim/LearnRA022_T1.jpg
+4,./stim/LearnLA040.jpg,./stim/LearnFA040.jpg,./stim/LearnRA040.jpg,./stim/LearnLA040_T2.jpg,./stim/LearnFA040_T2.jpg,./stim/LearnRA040_T1.jpg
+5,./stim/LearnLA049.jpg,./stim/LearnFA049.jpg,./stim/LearnRA049.jpg,./stim/LearnLA049_T3.jpg,./stim/LearnFA049_T1.jpg,./stim/LearnRA049_T3.jpg
+6,./stim/LearnLA076.jpg,./stim/LearnFA076.jpg,./stim/LearnRA076.jpg,./stim/LearnLA076_T1.jpg,./stim/LearnFA076_T3.jpg,./stim/LearnRA076_T1.jpg

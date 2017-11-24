@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.83.04">
+  <Settings>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="'data/%s_%s_%s' %(expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1280, 1024]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'session': u'001', u'participant': u''}" valType="code"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="textInputTest" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="pix" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="end">
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Dieser Teil des Experiments ist nun zu Ende.&amp;#10;&amp;#10;Vielen Dank." valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="50" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="bekannt">
+      <ImageComponent name="imageBekannt">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="imageBekannt" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="[0, 250]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="image" updates="set every repeat" val="$img" valType="str"/>
+        <Param name="size" updates="constant" val="[500, 500]" valType="code"/>
+      </ImageComponent>
+      <RatingScaleComponent name="ratingBekannt">
+        <Param name="labels" updates="constant" val="ja nein" valType="str"/>
+        <Param name="pos" updates="constant" val="0, -300" valType="str"/>
+        <Param name="high" updates="constant" val="2" valType="code"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="markerStart" updates="constant" val="" valType="str"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="code"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="low" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="scaleDescription" updates="constant" val="bekannt?" valType="str"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="categoryChoices" updates="constant" val="ja,nein" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ratingBekannt" valType="code"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+      <TextComponent name="text_6">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$name + '\n' +&amp;#10;$context + '\n' +&amp;#10;$descript + '\n\n\n\nBEKANNT?'" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, -150]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="28" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="beruf">
+      <CodeComponent name="code_2">
+        <Param name="Begin Experiment" updates="constant" val="inputText = &quot;&quot;" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="theseKeys=&quot;&quot;&amp;#10;shift_flag = False&amp;#10;text_5.alignHoriz ='left'" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="# let's store the final text string into the results finle...&amp;#10;thisExp.addData('inputText', inputText)&amp;#10;inputText=&quot;&quot;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="n= len(theseKeys)&amp;#10;i = 0&amp;#10;while i &lt; n:&amp;#10;&amp;#10;    if theseKeys[i] == 'return':&amp;#10;        # pressing RETURN means time to stop&amp;#10;        continueRoutine = False&amp;#10;        break&amp;#10;&amp;#10;    elif theseKeys[i] == 'backspace':&amp;#10;        inputText = inputText[:-1]  # lose the final character&amp;#10;        i = i + 1&amp;#10;&amp;#10;    elif theseKeys[i] == 'space':&amp;#10;        inputText += ' '&amp;#10;        i = i + 1&amp;#10;&amp;#10;    elif theseKeys[i] in ['lshift', 'rshift']:&amp;#10;        shift_flag = True&amp;#10;        i = i + 1&amp;#10;&amp;#10;    else:&amp;#10;        if len(theseKeys[i]) == 1:&amp;#10;            # we only have 1 char so should be a normal key, &amp;#10;            # otherwise it might be 'ctrl' or similar so ignore it&amp;#10;            if shift_flag:&amp;#10;                inputText += chr( ord(theseKeys[i]) - ord(' '))&amp;#10;                shift_flag = False&amp;#10;            else:&amp;#10;                inputText += theseKeys[i]&amp;#10;&amp;#10;        i = i + 1&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="text_5">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="set every frame" val="'Beruf/Kontext?\n\n' + $inputText" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-200, -200]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="50" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="all keys" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="image_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="[0, 100]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="image" updates="set every repeat" val="$pic" valType="str"/>
+        <Param name="size" updates="constant" val="[300,300]" valType="code"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="trial">
+      <StaticComponent name="ISI">
+        <Param name="code" updates="None" val="" valType="code"/>
+        <Param name="name" updates="None" val="ISI" valType="code"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+      </StaticComponent>
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Zum Schluss folgt nun ein Durchgang, in dem Ihnen Bilder von berühmten Persönlichkeiten mitsamt Beruf, Kontext und Namen präsentiert werden. Bitte geben Sie bei jeder Person an, ob Sie ihnen bekannt ist oder nicht. Um Ihre Antwort einzugeben, klicken Sie bitte die passende Option entweder mit der Maus an oder drücken die entsprechende Nummer Ihrer Antwort auf der Tastatur. &amp;#10;&amp;#10;Um zu beginnen, drücken Sie bitte die LEERTASTE." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="25" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="bekann"/>
+    <Routine name="gatherText">
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="inputBeruf = &quot;&quot;" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="theseKeys=&quot;&quot;&amp;#10;shift_flag = False&amp;#10;text_3.alignHoriz ='left'" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="# let's store the final text string into the results finle...&amp;#10;thisExp.addData('inputBeruf', inputBeruf)&amp;#10;inputBeruf=&quot;&quot;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="n= len(theseKeys)&amp;#10;i = 0&amp;#10;while i &lt; n:&amp;#10;&amp;#10;    if theseKeys[i] == 'return':&amp;#10;        # pressing RETURN means time to stop&amp;#10;        continueRoutine = False&amp;#10;        break&amp;#10;&amp;#10;    elif theseKeys[i] == 'backspace':&amp;#10;        inputBeruf = inputText[:-1]  # lose the final character&amp;#10;        i = i + 1&amp;#10;&amp;#10;    elif theseKeys[i] == 'space':&amp;#10;        inputBeruf += ' '&amp;#10;        i = i + 1&amp;#10;&amp;#10;    elif theseKeys[i] in ['lshift', 'rshift']:&amp;#10;        shift_flag = True&amp;#10;        i = i + 1&amp;#10;&amp;#10;    else:&amp;#10;        if len(theseKeys[i]) == 1:&amp;#10;            # we only have 1 char so should be a normal key, &amp;#10;            # otherwise it might be 'ctrl' or similar so ignore it&amp;#10;            if shift_flag:&amp;#10;                inputBeruf += chr( ord(theseKeys[i]) - ord(' '))&amp;#10;                shift_flag = False&amp;#10;            else:&amp;#10;                inputBeruf += theseKeys[i]&amp;#10;&amp;#10;        i = i + 1&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="text_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="set every frame" val="'Name?\n\n' + $inputBeruf" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-200, -200]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="50" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="all keys" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="image">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="[0,100]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="image" updates="set every repeat" val="$pic" valType="str"/>
+        <Param name="size" updates="constant" val="[300,300]" valType="code"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="trial"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="imgList.csv" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{'img': u'./img/AlysonHannigan(Lily)1.jpg', 'descript': u'&quot;How I Met Your Mother&quot; (Lily Aldrin)', 'name': u'Alyson Hannigan', 'context': u'Schauspielerin'}, {'img': u'./img/AngelaMerkel1.jpg', 'descript': u'Bundeskanzlerin CDU', 'name': u'Angela Merkel', 'context': u'Politikerin'}, {'img': u'./img/BarackObama2.jpg', 'descript': u'Pr\xe4sident der USA Demokratische Partei', 'name': u'Barack Obama', 'context': u'Politiker'}, {'img': u'./img/CarenMiosga4.jpg', 'descript': u'&quot;tagesthemen&quot; fr\xfcher &quot;ttt - titel thesen temperamente&quot;', 'name': u'Caren Miosga', 'context': u'Moderatorin'}, {'img': u'./img/EmilyDeschanel3.jpg', 'descript': u'&quot;Bones - Die Knochenj\xe4gerin&quot; (Dr. Temperance \'Bones\' Brennan)', 'name': u'Emily Deschanel', 'context': u'Schauspielerin'}, {'img': u'./img/GuentherJauch2.jpg', 'descript': u'&quot;Wer wird Million\xe4r?&quot; fr\xfcher &quot;stern TV&quot;', 'name': u'G\xfcnther Jauch', 'context': u'Moderator '}, {'img': u'./img/HughLaurie(DrHouse)9.jpg', 'descript': u'&quot;Dr. House&quot; (Dr. Gregory House)', 'name': u'Hugh Laurie', 'context': u'Schauspieler '}, {'img': u'./img/JasonSegel(Marshall)2.jpg', 'descript': u'&quot;How I Met Your Mother&quot; (Marshall Eriksen)', 'name': u'Jason Segel', 'context': u'Schauspieler'}, {'img': u'./img/KatjaBurkard5.jpg', 'descript': u'&quot;Punkt 12&quot; bei RTL', 'name': u'Katja Burkard', 'context': u'Moderatorin'}, {'img': u'./img/MariskaHargitay(Liv)1.jpg', 'descript': u'&quot;Law &amp; Order: Special Victims Unit&quot; (Olivia \'Liv\' Benson)', 'name': u'Mariska Hargitay', 'context': u'Schauspielerin'}, {'img': u'./img/NeilPatrickHarris(Barney)4.jpg', 'descript': u'&quot;How I Met Your Mother&quot; (Barney Stinson)', 'name': u'Neil Patrick Harris', 'context': u'Schauspieler'}, {'img': u'./img/NicoleKidman4.jpg', 'descript': u'&quot;Australia&quot; &quot;Moulin Rouge&quot; &quot;To Die For&quot;', 'name': u'Nicole Kidman', 'context': u'Schauspielerin'}, {'img': u'./img/RobertSeanLeonard(Wilson)2.jpg', 'descript': u'&quot;Dr. House&quot; (Dr. James Wilson)', 'name': u'Robert Sean Leonard', 'context': u'Schauspieler'}, {'img': u'./img/WillSmith4.jpg', 'descript': u'&quot;I Am Legend&quot; &quot;Independence Day&quot; &quot;Men in Black&quot;-Filme', 'name': u'Will Smith', 'context': u'Schauspieler'}, {'img': u'./img/BastianSchweinsteiger1.jpg', 'descript': u'Fu\xdfballspieler bei Manchester United fr\xfcher FC Bayern M\xfcnchen', 'name': u'Bastian Schweinsteiger', 'context': u'Sportler'}, {'img': u'./img/BenedictCumberbatch4.jpg', 'descript': u'&quot;Der Hobbit&quot;-Filme (Stimme des Drachen Smaug) &quot;Sherlock&quot;', 'name': u'Benedict Cumberbatch', 'context': u'Schauspieler'}, {'img': u'./img/Beyonce2.jpg', 'descript': u'&quot;Crazy in Love&quot; &quot;Halo&quot; &quot;If I Were a Boy&quot; &quot;Single Ladies&quot;', 'name': u'Beyonc\xe9', 'context': u'S\xe4ngerin'}, {'img': u'./img/BritneySpears5.jpg', 'descript': u'&quot;\u2026Baby One More Time&quot; &quot;Oops! \u2026I Did It Again&quot; &quot;Toxic&quot;', 'name': u'Britney Spears', 'context': u'S\xe4ngerin'}, {'img': u'./img/CobieSmulders(Robin)2.jpg', 'descript': u'&quot;How I Met Your Mother&quot; (Robin Scherbatsky)', 'name': u'Cobie Smulders', 'context': u'Schauspielerin'}, {'img': u'./img/CristinMilioti(Tracy_Mutter)1.jpg', 'descript': u'&quot;How I Met Your Mother&quot; (Tracy Mosby die Mutter)', 'name': u'Cristin Milioti', 'context': u'Schauspielerin'}, {'img': u'./img/DannFlorek(DonaldDonCragen)1.jpg', 'descript': u'&quot;Law &amp; Order: Special Victims Unit&quot; (Donald \'Don\' Cragen)', 'name': u'Dann Florek', 'context': u'Schauspieler'}, {'img': u'./img/ElvisPresley1.jpg', 'descript': u'&quot;Hound Dog&quot; &quot;In the Ghetto&quot; &quot;Jailhouse Rock&quot;', 'name': u'Elvis Presley', 'context': u'S\xe4nger'}, {'img': u'./img/EmmaWatson(HermioneGranger)1.jpg', 'descript': u'&quot;Harry Potter&quot;-Filme (Hermione Granger)', 'name': u'Emma Watson', 'context': u'Schauspielerin'}, {'img': u'./img/GeorgeClooney6.jpg', 'descript': u'&quot;Batman &amp; Robin&quot; &quot;Gravity&quot; &quot;Ocean\'s Eleven&quot;', 'name': u'George Clooney', 'context': u'Schauspieler'}, {'img': u'./img/Ice-T(OdafinFinTutuola)1.jpg', 'descript': u'&quot;Law &amp; Order: Special Victims Unit&quot; (Odafin \'Fin\' Tutuola)', 'name': u'Ice-T', 'context': u'Schauspieler und Musiker'}, {'img': u'./img/JanHofer1.jpg', 'descript': u'&quot;Tagesschau&quot; in der ARD', 'name': u'Jan Hofer', 'context': u'Nachrichtensprecher'}, {'img': u'./img/JimParsons(SheldonCooper)1.jpg', 'descript': u'&quot;The Big Bang Theory&quot; (Dr. Sheldon Cooper)', 'name': u'Jim Parsons', 'context': u'Schauspieler'}, {'img': u'./img/JoachimLoew1.jpg', 'descript': u'Bundestrainer der deutschen Fu\xdfballnationalmannschaft', 'name': u'Joachim L\xf6w', 'context': u'Trainer'}, {'img': u'./img/JoshRadnor(Ted)1.jpg', 'descript': u'&quot;How I Met Your Mother&quot; (Ted Mosby)', 'name': u'Josh Radnor', 'context': u'Schauspieler'}, {'img': u'./img/JudithRakers7.jpg', 'descript': u'&quot;Tagesschau&quot; in der ARD', 'name': u'Judith Rakers', 'context': u'Nachrichtensprecherin'}, {'img': u'./img/KaleyCuoco(Penny)2.jpg', 'descript': u'&quot;The Big Bang Theory&quot; (Penny Hofstadter)', 'name': u'Kaley Cuoco', 'context': u'Schauspielerin'}, {'img': u'./img/LeonardoDiCaprio1.jpg', 'descript': u'&quot;Django Unchained&quot; &quot;The Great Gatsby&quot; &quot;Titanic&quot;', 'name': u'Leonardo DiCaprio', 'context': u'Schauspieler'}, {'img': u'./img/LisaEdelstein(DrLisaCuddy)2.jpg', 'descript': u'&quot;Dr. House&quot; (Dr. Lisa Cuddy)', 'name': u'Lisa Edelstein', 'context': u'Schauspielerin'}, {'img': u'./img/MilaKunis5.jpg', 'descript': u'&quot;Black Swan&quot; &quot;Freunde mit gewissen Vorz\xfcgen&quot; &quot;Ted&quot;', 'name': u'Mila Kunis', 'context': u'Schauspielerin'}, {'img': u'./img/OmarEpps(DrEricForeman)1.jpg', 'descript': u'&quot;Dr. House&quot; (Dr. Eric Foreman)', 'name': u'Omar Epps', 'context': u'Schauspieler'}, {'img': u'./img/SahraWagenknecht6.jpg', 'descript': u'Fraktionsvorsitzende DIE LINKE', 'name': u'Sahra Wagenknecht', 'context': u'Politikerin  '}, {'img': u'./img/Shakira1.jpg', 'descript': u'&quot;Hips Don\'t Lie&quot; &quot;Waka Waka&quot; &quot;Whenever Wherever&quot;', 'name': u'Shakira', 'context': u'S\xe4ngerin'}, {'img': u'./img/SigmarGabriel1.jpg', 'descript': u'Bundesminister f\xfcr Wirtschaft und Energie &amp; Parteivorsitzender SPD', 'name': u'Sigmar Gabriel', 'context': u'Politiker'}, {'img': u'./img/TaylorSwift1.jpg', 'descript': u'&quot;Blank Space&quot; &quot;I Knew You Were Trouble&quot; &quot;Shake It Off&quot;', 'name': u'Taylor Swift', 'context': u'S\xe4ngerin'}, {'img': u'./img/TomCruise2.jpg', 'descript': u'&quot;Knight and Day&quot; &quot;Mission: Impossible&quot;-Filme &quot;Oblivion&quot;', 'name': u'Tom Cruise', 'context': u'Schauspieler'}, {'img': u'./img/UrsulavonderLeyen1.jpg', 'descript': u'Bundesministerin der Verteidigung CDU', 'name': u'Ursula von der Leyen', 'context': u'Politikerin'}, {'img': u'./img/Usher1.jpg', 'descript': u'&quot;DJ Got Us Fallin\' in Love&quot; &quot;More&quot; &quot;OMG&quot; &quot;Yeah!&quot;', 'name': u'Usher', 'context': u'S\xe4nger'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="bekannt"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>

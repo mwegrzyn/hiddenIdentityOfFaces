@@ -1,0 +1,754 @@
+7.7766 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x088E3930>, name='window1', pos=[0, 0], screen=0, size=array([1280, 1024]), stereo=False, units='pix', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7767 	EXP 	window1: recordFrameIntervals = False
+7.9421 	EXP 	window1: recordFrameIntervals = True
+8.1257 	EXP 	window1: recordFrameIntervals = False
+8.3214 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=25, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='pix', win=Window(...), wrapWidth=500)
+8.3248 	EXP 	Created imageBekannt = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageBekannt', opacity=1.0, ori=0.0, pos=array([   0.,  250.]), size=array([ 500.,  500.]), texRes=128, units='pix', win=Window(...))
+8.3569 	EXP 	Created ratingBekannt = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=[u'ja', u'nein'], depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='ratingBekannt', noMouse=False, pos=[0.0, -0.5859375], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+8.3652 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=28, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([   0., -150.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units='pix', win=Window(...), wrapWidth=500)
+8.3864 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=50, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='pix', win=Window(...), wrapWidth=500)
+8.3866 	EXP 	window1: recordFrameIntervals = False
+8.3939 	EXP 	ratingBekannt: flipVert = False
+8.3939 	EXP 	ratingBekannt: autoLog = True
+8.3939 	EXP 	text: autoDraw = True
+8.3941 	EXP 	window1: recordFrameIntervals = False
+26.6185 	DATA 	Keypress: space
+26.6232 	EXP 	Imported imgList.csv as conditions, 42 conditions, 4 params
+26.6242 	EXP 	Created sequence: random, trialTypes=42, nReps=1, seed=None
+26.6247 	EXP 	New trial (rep=0, index=0): {'img': u'./img/BastianSchweinsteiger1.jpg', 'descript': u'Fu\xdfballspieler bei Manchester United fr\xfcher FC Bayern M\xfcnchen', 'name': u'Bastian Schweinsteiger', 'context': u'Sportler'}
+26.6729 	EXP 	RatingScale ratingBekannt: reset()
+26.7350 	EXP 	text: autoDraw = False
+26.7350 	EXP 	imageBekannt: image = u'./img/BastianSchweinsteiger1.jpg'
+26.7350 	EXP 	text_6: text = u'Bastian Schweinsteiger\nSportler\nFu\xdfballspieler bei Manchester United fr\xfcher FC Bayern M\xfcnchen\n\n\n\nBEKANNT?'
+26.7350 	EXP 	imageBekannt: autoDraw = True
+26.7350 	EXP 	ratingBekannt: autoDraw = True
+26.7350 	EXP 	text_6: autoDraw = True
+32.3995 	DATA 	Keypress: 1
+33.9486 	DATA 	Mouse: Left button down, pos=(435,167)
+34.0156 	DATA 	Mouse:  Left button up, pos=(435,167)
+34.6686 	DATA 	Mouse: Left button down, pos=(445,202)
+34.7486 	DATA 	Mouse:  Left button up, pos=(445,202)
+36.5645 	DATA 	Keypress: 2
+37.7167 	DATA 	Mouse: Left button down, pos=(669,103)
+37.7170 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+37.7170 	DATA 	RatingScale ratingBekannt: rating RT=11.013
+37.7170 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 5.697), (u'ja', 7.965), (u'ja', 11.013)]
+37.7317 	EXP 	New trial (rep=0, index=1): {'img': u'./img/CristinMilioti(Tracy_Mutter)1.jpg', 'descript': u'"How I Met Your Mother" (Tracy Mosby die Mutter)', 'name': u'Cristin Milioti', 'context': u'Schauspielerin'}
+37.8154 	EXP 	RatingScale ratingBekannt: reset()
+37.8351 	DATA 	Mouse:  Left button up, pos=(669,103)
+37.8468 	EXP 	imageBekannt: autoDraw = False
+37.8468 	EXP 	ratingBekannt: autoDraw = False
+37.8468 	EXP 	text_6: autoDraw = False
+37.8468 	EXP 	imageBekannt: image = u'./img/CristinMilioti(Tracy_Mutter)1.jpg'
+37.8468 	EXP 	text_6: text = u'Cristin Milioti\nSchauspielerin\n"How I Met Your Mother" (Tracy Mosby die Mutter)\n\n\n\nBEKANNT?'
+37.8468 	EXP 	imageBekannt: autoDraw = True
+37.8468 	EXP 	ratingBekannt: autoDraw = True
+37.8468 	EXP 	text_6: autoDraw = True
+41.6127 	DATA 	Mouse: Left button down, pos=(863,184)
+41.6958 	DATA 	Mouse:  Left button up, pos=(863,184)
+41.9472 	DATA 	Mouse: Left button down, pos=(817,179)
+42.0290 	DATA 	Mouse:  Left button up, pos=(817,179)
+43.7613 	DATA 	Mouse: Left button down, pos=(660,92)
+43.7640 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+43.7641 	DATA 	RatingScale ratingBekannt: rating RT=5.929
+43.7641 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 4.112), (u'nein', 5.929)]
+43.7786 	EXP 	New trial (rep=0, index=2): {'img': u'./img/OmarEpps(DrEricForeman)1.jpg', 'descript': u'"Dr. House" (Dr. Eric Foreman)', 'name': u'Omar Epps', 'context': u'Schauspieler'}
+43.8007 	EXP 	RatingScale ratingBekannt: reset()
+43.8275 	EXP 	imageBekannt: autoDraw = False
+43.8275 	EXP 	ratingBekannt: autoDraw = False
+43.8275 	EXP 	text_6: autoDraw = False
+43.8275 	EXP 	imageBekannt: image = u'./img/OmarEpps(DrEricForeman)1.jpg'
+43.8275 	EXP 	text_6: text = u'Omar Epps\nSchauspieler\n"Dr. House" (Dr. Eric Foreman)\n\n\n\nBEKANNT?'
+43.8275 	EXP 	imageBekannt: autoDraw = True
+43.8275 	EXP 	ratingBekannt: autoDraw = True
+43.8275 	EXP 	text_6: autoDraw = True
+43.8611 	DATA 	Mouse:  Left button up, pos=(660,92)
+46.0608 	DATA 	Mouse: Left button down, pos=(448,173)
+46.1441 	DATA 	Mouse:  Left button up, pos=(448,173)
+46.4940 	DATA 	Mouse: Left button down, pos=(450,198)
+46.5632 	DATA 	Mouse:  Left button up, pos=(450,198)
+48.1300 	DATA 	Mouse: Left button down, pos=(608,95)
+48.1458 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+48.1458 	DATA 	RatingScale ratingBekannt: rating RT=4.334
+48.1459 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.684), (u'ja', 4.334)]
+48.1607 	EXP 	New trial (rep=0, index=3): {'img': u'./img/KaleyCuoco(Penny)2.jpg', 'descript': u'"The Big Bang Theory" (Penny Hofstadter)', 'name': u'Kaley Cuoco', 'context': u'Schauspielerin'}
+48.2997 	EXP 	RatingScale ratingBekannt: reset()
+48.3217 	DATA 	Mouse:  Left button up, pos=(608,95)
+48.3428 	EXP 	imageBekannt: autoDraw = False
+48.3428 	EXP 	ratingBekannt: autoDraw = False
+48.3428 	EXP 	text_6: autoDraw = False
+48.3428 	EXP 	imageBekannt: image = u'./img/KaleyCuoco(Penny)2.jpg'
+48.3428 	EXP 	text_6: text = u'Kaley Cuoco\nSchauspielerin\n"The Big Bang Theory" (Penny Hofstadter)\n\n\n\nBEKANNT?'
+48.3428 	EXP 	imageBekannt: autoDraw = True
+48.3428 	EXP 	ratingBekannt: autoDraw = True
+48.3428 	EXP 	text_6: autoDraw = True
+50.8923 	DATA 	Mouse: Left button down, pos=(452,202)
+50.9755 	DATA 	Mouse:  Left button up, pos=(452,202)
+51.6087 	DATA 	Mouse: Left button down, pos=(622,97)
+51.6116 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+51.6116 	DATA 	RatingScale ratingBekannt: rating RT=3.290
+51.6116 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.572), (u'ja', 3.29)]
+51.6261 	EXP 	New trial (rep=0, index=4): {'img': u'./img/CarenMiosga4.jpg', 'descript': u'"tagesthemen" fr\xfcher "ttt - titel thesen temperamente"', 'name': u'Caren Miosga', 'context': u'Moderatorin'}
+51.6687 	EXP 	RatingScale ratingBekannt: reset()
+51.7082 	EXP 	imageBekannt: autoDraw = False
+51.7082 	EXP 	ratingBekannt: autoDraw = False
+51.7082 	EXP 	text_6: autoDraw = False
+51.7082 	EXP 	imageBekannt: image = u'./img/CarenMiosga4.jpg'
+51.7082 	EXP 	text_6: text = u'Caren Miosga\nModeratorin\n"tagesthemen" fr\xfcher "ttt - titel thesen temperamente"\n\n\n\nBEKANNT?'
+51.7082 	EXP 	imageBekannt: autoDraw = True
+51.7082 	EXP 	ratingBekannt: autoDraw = True
+51.7082 	EXP 	text_6: autoDraw = True
+51.7093 	DATA 	Mouse:  Left button up, pos=(622,97)
+54.9072 	DATA 	Mouse: Left button down, pos=(814,197)
+55.0101 	DATA 	Mouse:  Left button up, pos=(817,195)
+55.8236 	DATA 	Mouse: Left button down, pos=(698,86)
+55.8265 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+55.8266 	DATA 	RatingScale ratingBekannt: rating RT=4.140
+55.8266 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 3.222), (u'nein', 4.14)]
+55.8410 	EXP 	New trial (rep=0, index=5): {'img': u'./img/CobieSmulders(Robin)2.jpg', 'descript': u'"How I Met Your Mother" (Robin Scherbatsky)', 'name': u'Cobie Smulders', 'context': u'Schauspielerin'}
+55.8775 	EXP 	RatingScale ratingBekannt: reset()
+55.9002 	DATA 	Mouse:  Left button up, pos=(698,86)
+55.9231 	EXP 	imageBekannt: autoDraw = False
+55.9231 	EXP 	ratingBekannt: autoDraw = False
+55.9231 	EXP 	text_6: autoDraw = False
+55.9231 	EXP 	imageBekannt: image = u'./img/CobieSmulders(Robin)2.jpg'
+55.9231 	EXP 	text_6: text = u'Cobie Smulders\nSchauspielerin\n"How I Met Your Mother" (Robin Scherbatsky)\n\n\n\nBEKANNT?'
+55.9231 	EXP 	imageBekannt: autoDraw = True
+55.9231 	EXP 	ratingBekannt: autoDraw = True
+55.9231 	EXP 	text_6: autoDraw = True
+58.2228 	DATA 	Mouse: Left button down, pos=(822,189)
+58.3227 	DATA 	Mouse:  Left button up, pos=(822,189)
+59.0091 	DATA 	Mouse: Left button down, pos=(718,100)
+59.0253 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+59.0253 	DATA 	RatingScale ratingBekannt: rating RT=3.125
+59.0253 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 2.324), (u'nein', 3.125)]
+59.0398 	EXP 	New trial (rep=0, index=6): {'img': u'./img/LisaEdelstein(DrLisaCuddy)2.jpg', 'descript': u'"Dr. House" (Dr. Lisa Cuddy)', 'name': u'Lisa Edelstein', 'context': u'Schauspielerin'}
+59.0850 	EXP 	RatingScale ratingBekannt: reset()
+59.1053 	EXP 	imageBekannt: autoDraw = False
+59.1053 	EXP 	ratingBekannt: autoDraw = False
+59.1053 	EXP 	text_6: autoDraw = False
+59.1053 	EXP 	imageBekannt: image = u'./img/LisaEdelstein(DrLisaCuddy)2.jpg'
+59.1053 	EXP 	text_6: text = u'Lisa Edelstein\nSchauspielerin\n"Dr. House" (Dr. Lisa Cuddy)\n\n\n\nBEKANNT?'
+59.1053 	EXP 	imageBekannt: autoDraw = True
+59.1053 	EXP 	ratingBekannt: autoDraw = True
+59.1053 	EXP 	text_6: autoDraw = True
+59.1220 	DATA 	Mouse:  Left button up, pos=(718,100)
+61.6047 	DATA 	Mouse: Left button down, pos=(450,195)
+61.6713 	DATA 	Mouse:  Left button up, pos=(450,195)
+62.3211 	DATA 	Mouse: Left button down, pos=(634,110)
+62.3241 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+62.3241 	DATA 	RatingScale ratingBekannt: rating RT=3.227
+62.3241 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.509), (u'ja', 3.227)]
+62.3385 	EXP 	New trial (rep=0, index=7): {'img': u'./img/EmilyDeschanel3.jpg', 'descript': u'"Bones - Die Knochenj\xe4gerin" (Dr. Temperance \'Bones\' Brennan)', 'name': u'Emily Deschanel', 'context': u'Schauspielerin'}
+62.3877 	EXP 	RatingScale ratingBekannt: reset()
+62.4053 	DATA 	Mouse:  Left button up, pos=(634,110)
+62.4208 	EXP 	imageBekannt: autoDraw = False
+62.4208 	EXP 	ratingBekannt: autoDraw = False
+62.4208 	EXP 	text_6: autoDraw = False
+62.4208 	EXP 	imageBekannt: image = u'./img/EmilyDeschanel3.jpg'
+62.4208 	EXP 	text_6: text = u'Emily Deschanel\nSchauspielerin\n"Bones - Die Knochenj\xe4gerin" (Dr. Temperance \'Bones\' Brennan)\n\n\n\nBEKANNT?'
+62.4208 	EXP 	imageBekannt: autoDraw = True
+62.4208 	EXP 	ratingBekannt: autoDraw = True
+62.4208 	EXP 	text_6: autoDraw = True
+68.7520 	DATA 	Mouse: Left button down, pos=(441,201)
+68.8351 	DATA 	Mouse:  Left button up, pos=(441,201)
+69.4516 	DATA 	Mouse: Left button down, pos=(651,103)
+69.4545 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+69.4545 	DATA 	RatingScale ratingBekannt: rating RT=7.049
+69.4546 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 6.348), (u'ja', 7.049)]
+69.4690 	EXP 	New trial (rep=0, index=8): {'img': u'./img/NicoleKidman4.jpg', 'descript': u'"Australia" "Moulin Rouge" "To Die For"', 'name': u'Nicole Kidman', 'context': u'Schauspielerin'}
+69.5067 	EXP 	RatingScale ratingBekannt: reset()
+69.5346 	EXP 	imageBekannt: autoDraw = False
+69.5346 	EXP 	ratingBekannt: autoDraw = False
+69.5346 	EXP 	text_6: autoDraw = False
+69.5346 	EXP 	imageBekannt: image = u'./img/NicoleKidman4.jpg'
+69.5346 	EXP 	text_6: text = u'Nicole Kidman\nSchauspielerin\n"Australia" "Moulin Rouge" "To Die For"\n\n\n\nBEKANNT?'
+69.5346 	EXP 	imageBekannt: autoDraw = True
+69.5346 	EXP 	ratingBekannt: autoDraw = True
+69.5346 	EXP 	text_6: autoDraw = True
+69.5348 	DATA 	Mouse:  Left button up, pos=(651,103)
+71.7689 	DATA 	Mouse: Left button down, pos=(463,189)
+71.8505 	DATA 	Mouse:  Left button up, pos=(463,189)
+72.8502 	DATA 	Mouse: Left button down, pos=(650,102)
+72.8530 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+72.8531 	DATA 	RatingScale ratingBekannt: rating RT=3.328
+72.8531 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.244), (u'ja', 3.328)]
+72.8677 	EXP 	New trial (rep=0, index=9): {'img': u'./img/ElvisPresley1.jpg', 'descript': u'"Hound Dog" "In the Ghetto" "Jailhouse Rock"', 'name': u'Elvis Presley', 'context': u'S\xe4nger'}
+72.8960 	EXP 	RatingScale ratingBekannt: reset()
+72.9332 	EXP 	imageBekannt: autoDraw = False
+72.9332 	EXP 	ratingBekannt: autoDraw = False
+72.9332 	EXP 	text_6: autoDraw = False
+72.9332 	EXP 	imageBekannt: image = u'./img/ElvisPresley1.jpg'
+72.9332 	EXP 	text_6: text = u'Elvis Presley\nS\xe4nger\n"Hound Dog" "In the Ghetto" "Jailhouse Rock"\n\n\n\nBEKANNT?'
+72.9332 	EXP 	imageBekannt: autoDraw = True
+72.9332 	EXP 	ratingBekannt: autoDraw = True
+72.9332 	EXP 	text_6: autoDraw = True
+72.9334 	DATA 	Mouse:  Left button up, pos=(650,102)
+74.0999 	DATA 	Mouse: Left button down, pos=(460,200)
+74.1998 	DATA 	Mouse:  Left button up, pos=(457,200)
+74.7330 	DATA 	Mouse: Left button down, pos=(620,84)
+74.7358 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+74.7359 	DATA 	RatingScale ratingBekannt: rating RT=1.824
+74.7359 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.189), (u'ja', 1.824)]
+74.7503 	EXP 	New trial (rep=0, index=10): {'img': u'./img/DannFlorek(DonaldDonCragen)1.jpg', 'descript': u'"Law & Order: Special Victims Unit" (Donald \'Don\' Cragen)', 'name': u'Dann Florek', 'context': u'Schauspieler'}
+74.7832 	EXP 	RatingScale ratingBekannt: reset()
+74.8014 	DATA 	Mouse:  Left button up, pos=(620,84)
+74.8158 	EXP 	imageBekannt: autoDraw = False
+74.8158 	EXP 	ratingBekannt: autoDraw = False
+74.8158 	EXP 	text_6: autoDraw = False
+74.8158 	EXP 	imageBekannt: image = u'./img/DannFlorek(DonaldDonCragen)1.jpg'
+74.8158 	EXP 	text_6: text = u'Dann Florek\nSchauspieler\n"Law & Order: Special Victims Unit" (Donald \'Don\' Cragen)\n\n\n\nBEKANNT?'
+74.8158 	EXP 	imageBekannt: autoDraw = True
+74.8158 	EXP 	ratingBekannt: autoDraw = True
+74.8158 	EXP 	text_6: autoDraw = True
+77.1819 	DATA 	Mouse: Left button down, pos=(836,194)
+77.2651 	DATA 	Mouse:  Left button up, pos=(836,194)
+77.9481 	DATA 	Mouse: Left button down, pos=(707,96)
+77.9511 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+77.9511 	DATA 	RatingScale ratingBekannt: rating RT=3.149
+77.9511 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 2.382), (u'nein', 3.149)]
+77.9656 	EXP 	New trial (rep=0, index=11): {'img': u'./img/KatjaBurkard5.jpg', 'descript': u'"Punkt 12" bei RTL', 'name': u'Katja Burkard', 'context': u'Moderatorin'}
+77.9945 	EXP 	RatingScale ratingBekannt: reset()
+78.0145 	EXP 	imageBekannt: autoDraw = False
+78.0145 	EXP 	ratingBekannt: autoDraw = False
+78.0145 	EXP 	text_6: autoDraw = False
+78.0145 	EXP 	imageBekannt: image = u'./img/KatjaBurkard5.jpg'
+78.0145 	EXP 	text_6: text = u'Katja Burkard\nModeratorin\n"Punkt 12" bei RTL\n\n\n\nBEKANNT?'
+78.0145 	EXP 	imageBekannt: autoDraw = True
+78.0145 	EXP 	ratingBekannt: autoDraw = True
+78.0145 	EXP 	text_6: autoDraw = True
+78.0147 	DATA 	Mouse:  Left button up, pos=(707,96)
+80.1307 	DATA 	Mouse: Left button down, pos=(442,209)
+80.2167 	DATA 	Mouse:  Left button up, pos=(442,209)
+80.7639 	DATA 	Mouse: Left button down, pos=(653,96)
+80.7670 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+80.7670 	DATA 	RatingScale ratingBekannt: rating RT=2.761
+80.7670 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.127), (u'ja', 2.761)]
+80.7812 	EXP 	New trial (rep=0, index=12): {'img': u'./img/BenedictCumberbatch4.jpg', 'descript': u'"Der Hobbit"-Filme (Stimme des Drachen Smaug) "Sherlock"', 'name': u'Benedict Cumberbatch', 'context': u'Schauspieler'}
+80.8219 	EXP 	RatingScale ratingBekannt: reset()
+80.8396 	DATA 	Mouse:  Left button up, pos=(653,96)
+80.8467 	EXP 	imageBekannt: autoDraw = False
+80.8467 	EXP 	ratingBekannt: autoDraw = False
+80.8467 	EXP 	text_6: autoDraw = False
+80.8467 	EXP 	imageBekannt: image = u'./img/BenedictCumberbatch4.jpg'
+80.8467 	EXP 	text_6: text = u'Benedict Cumberbatch\nSchauspieler\n"Der Hobbit"-Filme (Stimme des Drachen Smaug) "Sherlock"\n\n\n\nBEKANNT?'
+80.8467 	EXP 	imageBekannt: autoDraw = True
+80.8467 	EXP 	ratingBekannt: autoDraw = True
+80.8467 	EXP 	text_6: autoDraw = True
+82.1299 	DATA 	Mouse: Left button down, pos=(471,190)
+82.2160 	DATA 	Mouse:  Left button up, pos=(469,190)
+82.7630 	DATA 	Mouse: Left button down, pos=(655,80)
+82.7659 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+82.7660 	DATA 	RatingScale ratingBekannt: rating RT=1.927
+82.7660 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.293), (u'ja', 1.927)]
+82.7804 	EXP 	New trial (rep=0, index=13): {'img': u'./img/JoshRadnor(Ted)1.jpg', 'descript': u'"How I Met Your Mother" (Ted Mosby)', 'name': u'Josh Radnor', 'context': u'Schauspieler'}
+82.8187 	EXP 	RatingScale ratingBekannt: reset()
+82.8458 	EXP 	imageBekannt: autoDraw = False
+82.8458 	EXP 	ratingBekannt: autoDraw = False
+82.8458 	EXP 	text_6: autoDraw = False
+82.8458 	EXP 	imageBekannt: image = u'./img/JoshRadnor(Ted)1.jpg'
+82.8458 	EXP 	text_6: text = u'Josh Radnor\nSchauspieler\n"How I Met Your Mother" (Ted Mosby)\n\n\n\nBEKANNT?'
+82.8458 	EXP 	imageBekannt: autoDraw = True
+82.8458 	EXP 	ratingBekannt: autoDraw = True
+82.8458 	EXP 	text_6: autoDraw = True
+82.8627 	DATA 	Mouse:  Left button up, pos=(655,80)
+84.9622 	DATA 	Mouse: Left button down, pos=(822,198)
+85.0452 	DATA 	Mouse:  Left button up, pos=(822,198)
+85.5619 	DATA 	Mouse: Left button down, pos=(706,96)
+85.5648 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+85.5648 	DATA 	RatingScale ratingBekannt: rating RT=2.728
+85.5648 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 2.127), (u'nein', 2.727)]
+85.5793 	EXP 	New trial (rep=0, index=14): {'img': u'./img/Shakira1.jpg', 'descript': u'"Hips Don\'t Lie" "Waka Waka" "Whenever Wherever"', 'name': u'Shakira', 'context': u'S\xe4ngerin'}
+85.6099 	EXP 	RatingScale ratingBekannt: reset()
+85.6449 	EXP 	imageBekannt: autoDraw = False
+85.6449 	EXP 	ratingBekannt: autoDraw = False
+85.6449 	EXP 	text_6: autoDraw = False
+85.6449 	EXP 	imageBekannt: image = u'./img/Shakira1.jpg'
+85.6449 	EXP 	text_6: text = u'Shakira\nS\xe4ngerin\n"Hips Don\'t Lie" "Waka Waka" "Whenever Wherever"\n\n\n\nBEKANNT?'
+85.6449 	EXP 	imageBekannt: autoDraw = True
+85.6449 	EXP 	ratingBekannt: autoDraw = True
+85.6449 	EXP 	text_6: autoDraw = True
+85.6451 	DATA 	Mouse:  Left button up, pos=(706,96)
+87.9942 	DATA 	Mouse: Left button down, pos=(425,203)
+88.0942 	DATA 	Mouse:  Left button up, pos=(425,203)
+88.6441 	DATA 	Mouse: Left button down, pos=(634,107)
+88.6468 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+88.6468 	DATA 	RatingScale ratingBekannt: rating RT=3.022
+88.6469 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.371), (u'ja', 3.022)]
+88.6614 	EXP 	New trial (rep=0, index=15): {'img': u'./img/BritneySpears5.jpg', 'descript': u'"\u2026Baby One More Time" "Oops! \u2026I Did It Again" "Toxic"', 'name': u'Britney Spears', 'context': u'S\xe4ngerin'}
+88.6988 	EXP 	RatingScale ratingBekannt: reset()
+88.7234 	DATA 	Mouse:  Left button up, pos=(634,107)
+88.7434 	EXP 	imageBekannt: autoDraw = False
+88.7434 	EXP 	ratingBekannt: autoDraw = False
+88.7434 	EXP 	text_6: autoDraw = False
+88.7434 	EXP 	imageBekannt: image = u'./img/BritneySpears5.jpg'
+88.7434 	EXP 	text_6: text = u'Britney Spears\nS\xe4ngerin\n"\u2026Baby One More Time" "Oops! \u2026I Did It Again" "Toxic"\n\n\n\nBEKANNT?'
+88.7434 	EXP 	imageBekannt: autoDraw = True
+88.7434 	EXP 	ratingBekannt: autoDraw = True
+88.7434 	EXP 	text_6: autoDraw = True
+90.1769 	DATA 	Mouse: Left button down, pos=(459,199)
+90.2628 	DATA 	Mouse:  Left button up, pos=(459,199)
+90.8265 	DATA 	Mouse: Left button down, pos=(633,105)
+90.8293 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+90.8293 	DATA 	RatingScale ratingBekannt: rating RT=2.106
+90.8293 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.455), (u'ja', 2.106)]
+90.8439 	EXP 	New trial (rep=0, index=16): {'img': u'./img/JoachimLoew1.jpg', 'descript': u'Bundestrainer der deutschen Fu\xdfballnationalmannschaft', 'name': u'Joachim L\xf6w', 'context': u'Trainer'}
+90.8881 	EXP 	RatingScale ratingBekannt: reset()
+90.9024 	DATA 	Mouse:  Left button up, pos=(633,105)
+90.9092 	EXP 	imageBekannt: autoDraw = False
+90.9092 	EXP 	ratingBekannt: autoDraw = False
+90.9092 	EXP 	text_6: autoDraw = False
+90.9092 	EXP 	imageBekannt: image = u'./img/JoachimLoew1.jpg'
+90.9092 	EXP 	text_6: text = u'Joachim L\xf6w\nTrainer\nBundestrainer der deutschen Fu\xdfballnationalmannschaft\n\n\n\nBEKANNT?'
+90.9092 	EXP 	imageBekannt: autoDraw = True
+90.9092 	EXP 	ratingBekannt: autoDraw = True
+90.9092 	EXP 	text_6: autoDraw = True
+92.0261 	DATA 	Mouse: Left button down, pos=(447,190)
+92.1288 	DATA 	Mouse:  Left button up, pos=(447,190)
+92.6590 	DATA 	Mouse: Left button down, pos=(668,72)
+92.6619 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+92.6619 	DATA 	RatingScale ratingBekannt: rating RT=1.759
+92.6620 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.125), (u'ja', 1.759)]
+92.6765 	EXP 	New trial (rep=0, index=17): {'img': u'./img/AlysonHannigan(Lily)1.jpg', 'descript': u'"How I Met Your Mother" (Lily Aldrin)', 'name': u'Alyson Hannigan', 'context': u'Schauspielerin'}
+92.7211 	EXP 	RatingScale ratingBekannt: reset()
+92.7346 	DATA 	Mouse:  Left button up, pos=(668,72)
+92.7417 	EXP 	imageBekannt: autoDraw = False
+92.7417 	EXP 	ratingBekannt: autoDraw = False
+92.7417 	EXP 	text_6: autoDraw = False
+92.7417 	EXP 	imageBekannt: image = u'./img/AlysonHannigan(Lily)1.jpg'
+92.7417 	EXP 	text_6: text = u'Alyson Hannigan\nSchauspielerin\n"How I Met Your Mother" (Lily Aldrin)\n\n\n\nBEKANNT?'
+92.7417 	EXP 	imageBekannt: autoDraw = True
+92.7417 	EXP 	ratingBekannt: autoDraw = True
+92.7417 	EXP 	text_6: autoDraw = True
+94.3917 	DATA 	Mouse: Left button down, pos=(467,174)
+94.5083 	DATA 	Mouse:  Left button up, pos=(467,174)
+96.4244 	DATA 	Mouse: Left button down, pos=(449,197)
+96.5242 	DATA 	Mouse:  Left button up, pos=(449,197)
+98.0403 	DATA 	Mouse: Left button down, pos=(654,88)
+98.0432 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+98.0432 	DATA 	RatingScale ratingBekannt: rating RT=5.308
+98.0432 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 3.691), (u'ja', 5.308)]
+98.0577 	EXP 	New trial (rep=0, index=18): {'img': u'./img/EmmaWatson(HermioneGranger)1.jpg', 'descript': u'"Harry Potter"-Filme (Hermione Granger)', 'name': u'Emma Watson', 'context': u'Schauspielerin'}
+98.0938 	EXP 	RatingScale ratingBekannt: reset()
+98.1136 	DATA 	Mouse:  Left button up, pos=(654,88)
+98.1233 	EXP 	imageBekannt: autoDraw = False
+98.1233 	EXP 	ratingBekannt: autoDraw = False
+98.1233 	EXP 	text_6: autoDraw = False
+98.1233 	EXP 	imageBekannt: image = u'./img/EmmaWatson(HermioneGranger)1.jpg'
+98.1233 	EXP 	text_6: text = u'Emma Watson\nSchauspielerin\n"Harry Potter"-Filme (Hermione Granger)\n\n\n\nBEKANNT?'
+98.1233 	EXP 	imageBekannt: autoDraw = True
+98.1233 	EXP 	ratingBekannt: autoDraw = True
+98.1233 	EXP 	text_6: autoDraw = True
+100.5727 	DATA 	Mouse: Left button down, pos=(450,195)
+100.6560 	DATA 	Mouse:  Left button up, pos=(450,195)
+101.4083 	DATA 	Mouse: Left button down, pos=(692,82)
+101.4085 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+101.4086 	DATA 	RatingScale ratingBekannt: rating RT=3.295
+101.4086 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.46), (u'ja', 3.295)]
+101.4230 	EXP 	New trial (rep=0, index=19): {'img': u'./img/MilaKunis5.jpg', 'descript': u'"Black Swan" "Freunde mit gewissen Vorz\xfcgen" "Ted"', 'name': u'Mila Kunis', 'context': u'Schauspielerin'}
+101.4618 	EXP 	RatingScale ratingBekannt: reset()
+101.4769 	DATA 	Mouse:  Left button up, pos=(692,82)
+101.4886 	EXP 	imageBekannt: autoDraw = False
+101.4886 	EXP 	ratingBekannt: autoDraw = False
+101.4886 	EXP 	text_6: autoDraw = False
+101.4886 	EXP 	imageBekannt: image = u'./img/MilaKunis5.jpg'
+101.4886 	EXP 	text_6: text = u'Mila Kunis\nSchauspielerin\n"Black Swan" "Freunde mit gewissen Vorz\xfcgen" "Ted"\n\n\n\nBEKANNT?'
+101.4886 	EXP 	imageBekannt: autoDraw = True
+101.4886 	EXP 	ratingBekannt: autoDraw = True
+101.4886 	EXP 	text_6: autoDraw = True
+103.5382 	DATA 	Mouse: Left button down, pos=(463,194)
+103.6242 	DATA 	Mouse:  Left button up, pos=(463,194)
+104.1712 	DATA 	Mouse: Left button down, pos=(675,89)
+104.1741 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+104.1741 	DATA 	RatingScale ratingBekannt: rating RT=2.697
+104.1742 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 2.063), (u'ja', 2.697)]
+104.1887 	EXP 	New trial (rep=0, index=20): {'img': u'./img/GeorgeClooney6.jpg', 'descript': u'"Batman & Robin" "Gravity" "Ocean\'s Eleven"', 'name': u'George Clooney', 'context': u'Schauspieler'}
+104.2232 	EXP 	RatingScale ratingBekannt: reset()
+104.2373 	DATA 	Mouse:  Left button up, pos=(675,89)
+104.2540 	EXP 	imageBekannt: autoDraw = False
+104.2540 	EXP 	ratingBekannt: autoDraw = False
+104.2540 	EXP 	text_6: autoDraw = False
+104.2540 	EXP 	imageBekannt: image = u'./img/GeorgeClooney6.jpg'
+104.2540 	EXP 	text_6: text = u'George Clooney\nSchauspieler\n"Batman & Robin" "Gravity" "Ocean\'s Eleven"\n\n\n\nBEKANNT?'
+104.2540 	EXP 	imageBekannt: autoDraw = True
+104.2540 	EXP 	ratingBekannt: autoDraw = True
+104.2540 	EXP 	text_6: autoDraw = True
+105.4042 	DATA 	Mouse: Left button down, pos=(462,195)
+105.4874 	DATA 	Mouse:  Left button up, pos=(462,195)
+105.8703 	DATA 	Mouse: Left button down, pos=(644,117)
+105.8730 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+105.8731 	DATA 	RatingScale ratingBekannt: rating RT=1.636
+105.8731 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.168), (u'ja', 1.636)]
+105.8879 	EXP 	New trial (rep=0, index=21): {'img': u'./img/Beyonce2.jpg', 'descript': u'"Crazy in Love" "Halo" "If I Were a Boy" "Single Ladies"', 'name': u'Beyonc\xe9', 'context': u'S\xe4ngerin'}
+105.9222 	EXP 	RatingScale ratingBekannt: reset()
+105.9451 	DATA 	Mouse:  Left button up, pos=(644,117)
+105.9533 	EXP 	imageBekannt: autoDraw = False
+105.9533 	EXP 	ratingBekannt: autoDraw = False
+105.9533 	EXP 	text_6: autoDraw = False
+105.9533 	EXP 	imageBekannt: image = u'./img/Beyonce2.jpg'
+105.9533 	EXP 	text_6: text = u'Beyonc\xe9\nS\xe4ngerin\n"Crazy in Love" "Halo" "If I Were a Boy" "Single Ladies"\n\n\n\nBEKANNT?'
+105.9533 	EXP 	imageBekannt: autoDraw = True
+105.9533 	EXP 	ratingBekannt: autoDraw = True
+105.9533 	EXP 	text_6: autoDraw = True
+107.0035 	DATA 	Mouse: Left button down, pos=(418,196)
+107.0867 	DATA 	Mouse:  Left button up, pos=(418,196)
+107.3372 	DATA 	Mouse: Left button down, pos=(475,193)
+107.4226 	DATA 	Mouse:  Left button up, pos=(475,193)
+108.0057 	DATA 	Mouse: Left button down, pos=(613,91)
+108.0059 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+108.0060 	DATA 	RatingScale ratingBekannt: rating RT=2.061
+108.0060 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.393), (u'ja', 2.061)]
+108.0204 	EXP 	New trial (rep=0, index=22): {'img': u'./img/AngelaMerkel1.jpg', 'descript': u'Bundeskanzlerin CDU', 'name': u'Angela Merkel', 'context': u'Politikerin'}
+108.0529 	EXP 	RatingScale ratingBekannt: reset()
+108.0689 	EXP 	imageBekannt: autoDraw = False
+108.0689 	EXP 	ratingBekannt: autoDraw = False
+108.0689 	EXP 	text_6: autoDraw = False
+108.0689 	EXP 	imageBekannt: image = u'./img/AngelaMerkel1.jpg'
+108.0689 	EXP 	text_6: text = u'Angela Merkel\nPolitikerin\nBundeskanzlerin CDU\n\n\n\nBEKANNT?'
+108.0689 	EXP 	imageBekannt: autoDraw = True
+108.0689 	EXP 	ratingBekannt: autoDraw = True
+108.0689 	EXP 	text_6: autoDraw = True
+108.1030 	DATA 	Mouse:  Left button up, pos=(613,91)
+109.3191 	DATA 	Mouse: Left button down, pos=(452,187)
+109.4025 	DATA 	Mouse:  Left button up, pos=(451,187)
+109.7691 	DATA 	Mouse: Left button down, pos=(586,109)
+109.7720 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+109.7720 	DATA 	RatingScale ratingBekannt: rating RT=1.710
+109.7721 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.258), (u'ja', 1.71)]
+109.7863 	EXP 	New trial (rep=0, index=23): {'img': u'./img/UrsulavonderLeyen1.jpg', 'descript': u'Bundesministerin der Verteidigung CDU', 'name': u'Ursula von der Leyen', 'context': u'Politikerin'}
+109.8177 	EXP 	RatingScale ratingBekannt: reset()
+109.8299 	DATA 	Mouse:  Left button up, pos=(586,109)
+109.8518 	EXP 	imageBekannt: autoDraw = False
+109.8518 	EXP 	ratingBekannt: autoDraw = False
+109.8518 	EXP 	text_6: autoDraw = False
+109.8518 	EXP 	imageBekannt: image = u'./img/UrsulavonderLeyen1.jpg'
+109.8518 	EXP 	text_6: text = u'Ursula von der Leyen\nPolitikerin\nBundesministerin der Verteidigung CDU\n\n\n\nBEKANNT?'
+109.8518 	EXP 	imageBekannt: autoDraw = True
+109.8518 	EXP 	ratingBekannt: autoDraw = True
+109.8518 	EXP 	text_6: autoDraw = True
+111.1186 	DATA 	Mouse: Left button down, pos=(454,184)
+111.2216 	DATA 	Mouse:  Left button up, pos=(454,184)
+111.5683 	DATA 	Mouse: Left button down, pos=(569,108)
+111.5714 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+111.5714 	DATA 	RatingScale ratingBekannt: rating RT=1.741
+111.5714 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.29), (u'ja', 1.741)]
+111.5858 	EXP 	New trial (rep=0, index=24): {'img': u'./img/NeilPatrickHarris(Barney)4.jpg', 'descript': u'"How I Met Your Mother" (Barney Stinson)', 'name': u'Neil Patrick Harris', 'context': u'Schauspieler'}
+111.6218 	EXP 	RatingScale ratingBekannt: reset()
+111.6511 	EXP 	imageBekannt: autoDraw = False
+111.6511 	EXP 	ratingBekannt: autoDraw = False
+111.6511 	EXP 	text_6: autoDraw = False
+111.6511 	EXP 	imageBekannt: image = u'./img/NeilPatrickHarris(Barney)4.jpg'
+111.6511 	EXP 	text_6: text = u'Neil Patrick Harris\nSchauspieler\n"How I Met Your Mother" (Barney Stinson)\n\n\n\nBEKANNT?'
+111.6511 	EXP 	imageBekannt: autoDraw = True
+111.6511 	EXP 	ratingBekannt: autoDraw = True
+111.6511 	EXP 	text_6: autoDraw = True
+111.6513 	DATA 	Mouse:  Left button up, pos=(570,108)
+115.2836 	DATA 	Mouse: Left button down, pos=(443,187)
+115.3669 	DATA 	Mouse:  Left button up, pos=(443,187)
+116.2331 	DATA 	Mouse: Left button down, pos=(621,94)
+116.2359 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+116.2359 	DATA 	RatingScale ratingBekannt: rating RT=4.595
+116.2359 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 3.644), (u'ja', 4.594)]
+116.2506 	EXP 	New trial (rep=0, index=25): {'img': u'./img/SigmarGabriel1.jpg', 'descript': u'Bundesminister f\xfcr Wirtschaft und Energie & Parteivorsitzender SPD', 'name': u'Sigmar Gabriel', 'context': u'Politiker'}
+116.2887 	EXP 	RatingScale ratingBekannt: reset()
+116.3029 	DATA 	Mouse:  Left button up, pos=(621,94)
+116.3161 	EXP 	imageBekannt: autoDraw = False
+116.3161 	EXP 	ratingBekannt: autoDraw = False
+116.3161 	EXP 	text_6: autoDraw = False
+116.3161 	EXP 	imageBekannt: image = u'./img/SigmarGabriel1.jpg'
+116.3161 	EXP 	text_6: text = u'Sigmar Gabriel\nPolitiker\nBundesminister f\xfcr Wirtschaft und Energie & Parteivorsitzender SPD\n\n\n\nBEKANNT?'
+116.3161 	EXP 	imageBekannt: autoDraw = True
+116.3161 	EXP 	ratingBekannt: autoDraw = True
+116.3161 	EXP 	text_6: autoDraw = True
+117.5327 	DATA 	Mouse: Left button down, pos=(453,191)
+117.6325 	DATA 	Mouse:  Left button up, pos=(453,191)
+118.1492 	DATA 	Mouse: Left button down, pos=(588,97)
+118.1522 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+118.1522 	DATA 	RatingScale ratingBekannt: rating RT=1.849
+118.1523 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.231), (u'ja', 1.849)]
+118.1665 	EXP 	New trial (rep=0, index=26): {'img': u'./img/JanHofer1.jpg', 'descript': u'"Tagesschau" in der ARD', 'name': u'Jan Hofer', 'context': u'Nachrichtensprecher'}
+118.2006 	EXP 	RatingScale ratingBekannt: reset()
+118.2320 	EXP 	imageBekannt: autoDraw = False
+118.2320 	EXP 	ratingBekannt: autoDraw = False
+118.2320 	EXP 	text_6: autoDraw = False
+118.2320 	EXP 	imageBekannt: image = u'./img/JanHofer1.jpg'
+118.2320 	EXP 	text_6: text = u'Jan Hofer\nNachrichtensprecher\n"Tagesschau" in der ARD\n\n\n\nBEKANNT?'
+118.2320 	EXP 	imageBekannt: autoDraw = True
+118.2320 	EXP 	ratingBekannt: autoDraw = True
+118.2320 	EXP 	text_6: autoDraw = True
+118.2322 	DATA 	Mouse:  Left button up, pos=(588,97)
+119.8318 	DATA 	Mouse: Left button down, pos=(832,185)
+119.9150 	DATA 	Mouse:  Left button up, pos=(832,185)
+120.7174 	DATA 	Mouse: Left button down, pos=(697,95)
+120.7176 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+120.7176 	DATA 	RatingScale ratingBekannt: rating RT=2.505
+120.7177 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 1.621), (u'nein', 2.505)]
+120.7320 	EXP 	New trial (rep=0, index=27): {'img': u'./img/TaylorSwift1.jpg', 'descript': u'"Blank Space" "I Knew You Were Trouble" "Shake It Off"', 'name': u'Taylor Swift', 'context': u'S\xe4ngerin'}
+120.7646 	EXP 	RatingScale ratingBekannt: reset()
+120.7784 	DATA 	Mouse:  Left button up, pos=(697,95)
+120.7976 	EXP 	imageBekannt: autoDraw = False
+120.7976 	EXP 	ratingBekannt: autoDraw = False
+120.7976 	EXP 	text_6: autoDraw = False
+120.7976 	EXP 	imageBekannt: image = u'./img/TaylorSwift1.jpg'
+120.7976 	EXP 	text_6: text = u'Taylor Swift\nS\xe4ngerin\n"Blank Space" "I Knew You Were Trouble" "Shake It Off"\n\n\n\nBEKANNT?'
+120.7976 	EXP 	imageBekannt: autoDraw = True
+120.7976 	EXP 	ratingBekannt: autoDraw = True
+120.7976 	EXP 	text_6: autoDraw = True
+122.2974 	DATA 	Mouse: Left button down, pos=(442,193)
+122.3808 	DATA 	Mouse:  Left button up, pos=(442,193)
+122.9331 	DATA 	Mouse: Left button down, pos=(615,105)
+122.9333 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+122.9333 	DATA 	RatingScale ratingBekannt: rating RT=2.155
+122.9334 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.52), (u'ja', 2.155)]
+122.9478 	EXP 	New trial (rep=0, index=28): {'img': u'./img/GuentherJauch2.jpg', 'descript': u'"Wer wird Million\xe4r?" fr\xfcher "stern TV"', 'name': u'G\xfcnther Jauch', 'context': u'Moderator '}
+122.9874 	EXP 	RatingScale ratingBekannt: reset()
+123.0300 	EXP 	imageBekannt: autoDraw = False
+123.0300 	EXP 	ratingBekannt: autoDraw = False
+123.0300 	EXP 	text_6: autoDraw = False
+123.0300 	EXP 	imageBekannt: image = u'./img/GuentherJauch2.jpg'
+123.0300 	EXP 	text_6: text = u'G\xfcnther Jauch\nModerator \n"Wer wird Million\xe4r?" fr\xfcher "stern TV"\n\n\n\nBEKANNT?'
+123.0300 	EXP 	imageBekannt: autoDraw = True
+123.0300 	EXP 	ratingBekannt: autoDraw = True
+123.0300 	EXP 	text_6: autoDraw = True
+123.0301 	DATA 	Mouse:  Left button up, pos=(615,105)
+124.1651 	DATA 	Mouse: Left button down, pos=(454,181)
+124.2631 	DATA 	Mouse:  Left button up, pos=(454,181)
+124.8298 	DATA 	Mouse: Left button down, pos=(634,106)
+124.8325 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+124.8325 	DATA 	RatingScale ratingBekannt: rating RT=1.826
+124.8325 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.159), (u'ja', 1.826)]
+124.8466 	EXP 	New trial (rep=0, index=29): {'img': u'./img/JudithRakers7.jpg', 'descript': u'"Tagesschau" in der ARD', 'name': u'Judith Rakers', 'context': u'Nachrichtensprecherin'}
+124.8897 	EXP 	RatingScale ratingBekannt: reset()
+124.9127 	EXP 	imageBekannt: autoDraw = False
+124.9127 	EXP 	ratingBekannt: autoDraw = False
+124.9127 	EXP 	text_6: autoDraw = False
+124.9127 	EXP 	imageBekannt: image = u'./img/JudithRakers7.jpg'
+124.9127 	EXP 	text_6: text = u'Judith Rakers\nNachrichtensprecherin\n"Tagesschau" in der ARD\n\n\n\nBEKANNT?'
+124.9127 	EXP 	imageBekannt: autoDraw = True
+124.9127 	EXP 	ratingBekannt: autoDraw = True
+124.9127 	EXP 	text_6: autoDraw = True
+124.9294 	DATA 	Mouse:  Left button up, pos=(634,106)
+126.2459 	DATA 	Mouse: Left button down, pos=(833,177)
+126.3292 	DATA 	Mouse:  Left button up, pos=(833,177)
+126.6956 	DATA 	Mouse: Left button down, pos=(698,106)
+126.6985 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+126.6985 	DATA 	RatingScale ratingBekannt: rating RT=1.795
+126.6986 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 1.344), (u'nein', 1.795)]
+126.7131 	EXP 	New trial (rep=0, index=30): {'img': u'./img/TomCruise2.jpg', 'descript': u'"Knight and Day" "Mission: Impossible"-Filme "Oblivion"', 'name': u'Tom Cruise', 'context': u'Schauspieler'}
+126.7490 	EXP 	RatingScale ratingBekannt: reset()
+126.7711 	DATA 	Mouse:  Left button up, pos=(698,106)
+126.7784 	EXP 	imageBekannt: autoDraw = False
+126.7784 	EXP 	ratingBekannt: autoDraw = False
+126.7784 	EXP 	text_6: autoDraw = False
+126.7784 	EXP 	imageBekannt: image = u'./img/TomCruise2.jpg'
+126.7784 	EXP 	text_6: text = u'Tom Cruise\nSchauspieler\n"Knight and Day" "Mission: Impossible"-Filme "Oblivion"\n\n\n\nBEKANNT?'
+126.7784 	EXP 	imageBekannt: autoDraw = True
+126.7784 	EXP 	ratingBekannt: autoDraw = True
+126.7784 	EXP 	text_6: autoDraw = True
+127.8782 	DATA 	Mouse: Left button down, pos=(437,173)
+127.9784 	DATA 	Mouse:  Left button up, pos=(436,174)
+128.7116 	DATA 	Mouse: Left button down, pos=(444,196)
+128.7808 	DATA 	Mouse:  Left button up, pos=(444,196)
+129.1279 	DATA 	Mouse: Left button down, pos=(634,112)
+129.1308 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+129.1308 	DATA 	RatingScale ratingBekannt: rating RT=2.360
+129.1309 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.942), (u'ja', 2.36)]
+129.1454 	EXP 	New trial (rep=0, index=31): {'img': u'./img/Usher1.jpg', 'descript': u'"DJ Got Us Fallin\' in Love" "More" "OMG" "Yeah!"', 'name': u'Usher', 'context': u'S\xe4nger'}
+129.2015 	EXP 	RatingScale ratingBekannt: reset()
+129.2203 	DATA 	Mouse:  Left button up, pos=(634,112)
+129.2274 	EXP 	imageBekannt: autoDraw = False
+129.2274 	EXP 	ratingBekannt: autoDraw = False
+129.2274 	EXP 	text_6: autoDraw = False
+129.2274 	EXP 	imageBekannt: image = u'./img/Usher1.jpg'
+129.2274 	EXP 	text_6: text = u'Usher\nS\xe4nger\n"DJ Got Us Fallin\' in Love" "More" "OMG" "Yeah!"\n\n\n\nBEKANNT?'
+129.2274 	EXP 	imageBekannt: autoDraw = True
+129.2274 	EXP 	ratingBekannt: autoDraw = True
+129.2274 	EXP 	text_6: autoDraw = True
+131.0441 	DATA 	Mouse: Left button down, pos=(445,190)
+131.1437 	DATA 	Mouse:  Left button up, pos=(445,190)
+131.5103 	DATA 	Mouse: Left button down, pos=(616,109)
+131.5132 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+131.5132 	DATA 	RatingScale ratingBekannt: rating RT=2.293
+131.5133 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.825), (u'ja', 2.293)]
+131.5279 	EXP 	New trial (rep=0, index=32): {'img': u'./img/SahraWagenknecht6.jpg', 'descript': u'Fraktionsvorsitzende DIE LINKE', 'name': u'Sahra Wagenknecht', 'context': u'Politikerin  '}
+131.5659 	EXP 	RatingScale ratingBekannt: reset()
+131.5932 	EXP 	imageBekannt: autoDraw = False
+131.5932 	EXP 	ratingBekannt: autoDraw = False
+131.5932 	EXP 	text_6: autoDraw = False
+131.5932 	EXP 	imageBekannt: image = u'./img/SahraWagenknecht6.jpg'
+131.5932 	EXP 	text_6: text = u'Sahra Wagenknecht\nPolitikerin  \nFraktionsvorsitzende DIE LINKE\n\n\n\nBEKANNT?'
+131.5932 	EXP 	imageBekannt: autoDraw = True
+131.5932 	EXP 	ratingBekannt: autoDraw = True
+131.5932 	EXP 	text_6: autoDraw = True
+131.5934 	DATA 	Mouse:  Left button up, pos=(616,109)
+132.6934 	DATA 	Mouse: Left button down, pos=(462,176)
+132.7799 	DATA 	Mouse:  Left button up, pos=(460,177)
+133.0765 	DATA 	Mouse: Left button down, pos=(630,108)
+133.0793 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+133.0793 	DATA 	RatingScale ratingBekannt: rating RT=1.495
+133.0793 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.11), (u'ja', 1.495)]
+133.0939 	EXP 	New trial (rep=0, index=33): {'img': u'./img/HughLaurie(DrHouse)9.jpg', 'descript': u'"Dr. House" (Dr. Gregory House)', 'name': u'Hugh Laurie', 'context': u'Schauspieler '}
+133.1300 	EXP 	RatingScale ratingBekannt: reset()
+133.1595 	EXP 	imageBekannt: autoDraw = False
+133.1595 	EXP 	ratingBekannt: autoDraw = False
+133.1595 	EXP 	text_6: autoDraw = False
+133.1595 	EXP 	imageBekannt: image = u'./img/HughLaurie(DrHouse)9.jpg'
+133.1595 	EXP 	text_6: text = u'Hugh Laurie\nSchauspieler \n"Dr. House" (Dr. Gregory House)\n\n\n\nBEKANNT?'
+133.1595 	EXP 	imageBekannt: autoDraw = True
+133.1595 	EXP 	ratingBekannt: autoDraw = True
+133.1595 	EXP 	text_6: autoDraw = True
+133.1763 	DATA 	Mouse:  Left button up, pos=(630,108)
+134.2281 	DATA 	Mouse: Left button down, pos=(437,172)
+134.3427 	DATA 	Mouse:  Left button up, pos=(437,172)
+134.8927 	DATA 	Mouse: Left button down, pos=(464,190)
+134.9958 	DATA 	Mouse:  Left button up, pos=(462,191)
+135.3757 	DATA 	Mouse: Left button down, pos=(628,114)
+135.3788 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+135.3788 	DATA 	RatingScale ratingBekannt: rating RT=2.231
+135.3788 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.747), (u'ja', 2.231)]
+135.3930 	EXP 	New trial (rep=0, index=34): {'img': u'./img/WillSmith4.jpg', 'descript': u'"I Am Legend" "Independence Day" "Men in Black"-Filme', 'name': u'Will Smith', 'context': u'Schauspieler'}
+135.4777 	EXP 	RatingScale ratingBekannt: reset()
+135.4948 	DATA 	Mouse:  Left button up, pos=(628,114)
+135.5084 	EXP 	imageBekannt: autoDraw = False
+135.5084 	EXP 	ratingBekannt: autoDraw = False
+135.5084 	EXP 	text_6: autoDraw = False
+135.5084 	EXP 	imageBekannt: image = u'./img/WillSmith4.jpg'
+135.5084 	EXP 	text_6: text = u'Will Smith\nSchauspieler\n"I Am Legend" "Independence Day" "Men in Black"-Filme\n\n\n\nBEKANNT?'
+135.5084 	EXP 	imageBekannt: autoDraw = True
+135.5084 	EXP 	ratingBekannt: autoDraw = True
+135.5084 	EXP 	text_6: autoDraw = True
+142.0065 	DATA 	Mouse: Left button down, pos=(456,190)
+142.1228 	DATA 	Mouse:  Left button up, pos=(456,190)
+142.3893 	DATA 	Mouse: Left button down, pos=(588,111)
+142.3920 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+142.3921 	DATA 	RatingScale ratingBekannt: rating RT=6.897
+142.3921 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 6.513), (u'ja', 6.897)]
+142.4068 	EXP 	New trial (rep=0, index=35): {'img': u'./img/LeonardoDiCaprio1.jpg', 'descript': u'"Django Unchained" "The Great Gatsby" "Titanic"', 'name': u'Leonardo DiCaprio', 'context': u'Schauspieler'}
+142.4527 	EXP 	RatingScale ratingBekannt: reset()
+142.4746 	DATA 	Mouse:  Left button up, pos=(588,111)
+142.4892 	EXP 	imageBekannt: autoDraw = False
+142.4892 	EXP 	ratingBekannt: autoDraw = False
+142.4892 	EXP 	text_6: autoDraw = False
+142.4892 	EXP 	imageBekannt: image = u'./img/LeonardoDiCaprio1.jpg'
+142.4892 	EXP 	text_6: text = u'Leonardo DiCaprio\nSchauspieler\n"Django Unchained" "The Great Gatsby" "Titanic"\n\n\n\nBEKANNT?'
+142.4892 	EXP 	imageBekannt: autoDraw = True
+142.4892 	EXP 	ratingBekannt: autoDraw = True
+142.4892 	EXP 	text_6: autoDraw = True
+143.5894 	DATA 	Mouse: Left button down, pos=(455,178)
+143.6919 	DATA 	Mouse:  Left button up, pos=(455,178)
+144.0222 	DATA 	Mouse: Left button down, pos=(616,85)
+144.0250 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+144.0250 	DATA 	RatingScale ratingBekannt: rating RT=1.550
+144.0250 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.116), (u'ja', 1.55)]
+144.0395 	EXP 	New trial (rep=0, index=36): {'img': u'./img/Ice-T(OdafinFinTutuola)1.jpg', 'descript': u'"Law & Order: Special Victims Unit" (Odafin \'Fin\' Tutuola)', 'name': u'Ice-T', 'context': u'Schauspieler und Musiker'}
+144.0758 	EXP 	RatingScale ratingBekannt: reset()
+144.0997 	DATA 	Mouse:  Left button up, pos=(616,85)
+144.1217 	EXP 	imageBekannt: autoDraw = False
+144.1217 	EXP 	ratingBekannt: autoDraw = False
+144.1217 	EXP 	text_6: autoDraw = False
+144.1217 	EXP 	imageBekannt: image = u'./img/Ice-T(OdafinFinTutuola)1.jpg'
+144.1217 	EXP 	text_6: text = u'Ice-T\nSchauspieler und Musiker\n"Law & Order: Special Victims Unit" (Odafin \'Fin\' Tutuola)\n\n\n\nBEKANNT?'
+144.1217 	EXP 	imageBekannt: autoDraw = True
+144.1217 	EXP 	ratingBekannt: autoDraw = True
+144.1217 	EXP 	text_6: autoDraw = True
+147.7722 	DATA 	Mouse: Left button down, pos=(816,185)
+147.8539 	DATA 	Mouse:  Left button up, pos=(816,185)
+149.5233 	DATA 	Mouse: Left button down, pos=(701,98)
+149.5394 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+149.5394 	DATA 	RatingScale ratingBekannt: rating RT=5.439
+149.5394 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 3.672), (u'nein', 5.439)]
+149.5541 	EXP 	New trial (rep=0, index=37): {'img': u'./img/BarackObama2.jpg', 'descript': u'Pr\xe4sident der USA Demokratische Partei', 'name': u'Barack Obama', 'context': u'Politiker'}
+149.5893 	EXP 	RatingScale ratingBekannt: reset()
+149.6195 	EXP 	imageBekannt: autoDraw = False
+149.6195 	EXP 	ratingBekannt: autoDraw = False
+149.6195 	EXP 	text_6: autoDraw = False
+149.6195 	EXP 	imageBekannt: image = u'./img/BarackObama2.jpg'
+149.6195 	EXP 	text_6: text = u'Barack Obama\nPolitiker\nPr\xe4sident der USA Demokratische Partei\n\n\n\nBEKANNT?'
+149.6195 	EXP 	imageBekannt: autoDraw = True
+149.6195 	EXP 	ratingBekannt: autoDraw = True
+149.6195 	EXP 	text_6: autoDraw = True
+149.6698 	DATA 	Mouse:  Left button up, pos=(701,98)
+150.9527 	DATA 	Mouse: Left button down, pos=(453,179)
+151.0528 	DATA 	Mouse:  Left button up, pos=(453,179)
+151.3552 	DATA 	Mouse: Left button down, pos=(563,127)
+151.4358 	DATA 	Mouse:  Left button up, pos=(564,126)
+151.8359 	DATA 	Mouse: Left button down, pos=(590,100)
+151.8388 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+151.8388 	DATA 	RatingScale ratingBekannt: rating RT=2.238
+151.8389 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.354), (u'ja', 2.238)]
+151.8531 	EXP 	New trial (rep=0, index=38): {'img': u'./img/RobertSeanLeonard(Wilson)2.jpg', 'descript': u'"Dr. House" (Dr. James Wilson)', 'name': u'Robert Sean Leonard', 'context': u'Schauspieler'}
+151.8960 	EXP 	RatingScale ratingBekannt: reset()
+151.9079 	DATA 	Mouse:  Left button up, pos=(590,100)
+151.9187 	EXP 	imageBekannt: autoDraw = False
+151.9187 	EXP 	ratingBekannt: autoDraw = False
+151.9187 	EXP 	text_6: autoDraw = False
+151.9187 	EXP 	imageBekannt: image = u'./img/RobertSeanLeonard(Wilson)2.jpg'
+151.9187 	EXP 	text_6: text = u'Robert Sean Leonard\nSchauspieler\n"Dr. House" (Dr. James Wilson)\n\n\n\nBEKANNT?'
+151.9187 	EXP 	imageBekannt: autoDraw = True
+151.9187 	EXP 	ratingBekannt: autoDraw = True
+151.9187 	EXP 	text_6: autoDraw = True
+153.4685 	DATA 	Mouse: Left button down, pos=(439,196)
+153.5548 	DATA 	Mouse:  Left button up, pos=(439,196)
+154.3014 	DATA 	Mouse: Left button down, pos=(622,91)
+154.3044 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+154.3044 	DATA 	RatingScale ratingBekannt: rating RT=2.396
+154.3044 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.562), (u'ja', 2.396)]
+154.3188 	EXP 	New trial (rep=0, index=39): {'img': u'./img/JimParsons(SheldonCooper)1.jpg', 'descript': u'"The Big Bang Theory" (Dr. Sheldon Cooper)', 'name': u'Jim Parsons', 'context': u'Schauspieler'}
+154.3465 	EXP 	RatingScale ratingBekannt: reset()
+154.3843 	EXP 	imageBekannt: autoDraw = False
+154.3843 	EXP 	ratingBekannt: autoDraw = False
+154.3843 	EXP 	text_6: autoDraw = False
+154.3843 	EXP 	imageBekannt: image = u'./img/JimParsons(SheldonCooper)1.jpg'
+154.3843 	EXP 	text_6: text = u'Jim Parsons\nSchauspieler\n"The Big Bang Theory" (Dr. Sheldon Cooper)\n\n\n\nBEKANNT?'
+154.3843 	EXP 	imageBekannt: autoDraw = True
+154.3843 	EXP 	ratingBekannt: autoDraw = True
+154.3843 	EXP 	text_6: autoDraw = True
+154.3845 	DATA 	Mouse:  Left button up, pos=(622,91)
+155.6191 	DATA 	Mouse: Left button down, pos=(454,198)
+155.7174 	DATA 	Mouse:  Left button up, pos=(454,198)
+156.1174 	DATA 	Mouse: Left button down, pos=(586,108)
+156.1202 	DATA 	RatingScale ratingBekannt: (mouse response) rating=ja
+156.1202 	DATA 	RatingScale ratingBekannt: rating RT=1.754
+156.1202 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'ja', 1.253), (u'ja', 1.754)]
+156.1348 	EXP 	New trial (rep=0, index=40): {'img': u'./img/JasonSegel(Marshall)2.jpg', 'descript': u'"How I Met Your Mother" (Marshall Eriksen)', 'name': u'Jason Segel', 'context': u'Schauspieler'}
+156.1692 	EXP 	RatingScale ratingBekannt: reset()
+156.1899 	DATA 	Mouse:  Left button up, pos=(586,108)
+156.2002 	EXP 	imageBekannt: autoDraw = False
+156.2002 	EXP 	ratingBekannt: autoDraw = False
+156.2002 	EXP 	text_6: autoDraw = False
+156.2002 	EXP 	imageBekannt: image = u'./img/JasonSegel(Marshall)2.jpg'
+156.2002 	EXP 	text_6: text = u'Jason Segel\nSchauspieler\n"How I Met Your Mother" (Marshall Eriksen)\n\n\n\nBEKANNT?'
+156.2002 	EXP 	imageBekannt: autoDraw = True
+156.2002 	EXP 	ratingBekannt: autoDraw = True
+156.2002 	EXP 	text_6: autoDraw = True
+158.0666 	DATA 	Mouse: Left button down, pos=(819,198)
+158.1664 	DATA 	Mouse:  Left button up, pos=(819,198)
+158.4665 	DATA 	Mouse: Left button down, pos=(708,95)
+158.4694 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+158.4694 	DATA 	RatingScale ratingBekannt: rating RT=2.279
+158.4694 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 1.878), (u'nein', 2.279)]
+158.4839 	EXP 	New trial (rep=0, index=41): {'img': u'./img/MariskaHargitay(Liv)1.jpg', 'descript': u'"Law & Order: Special Victims Unit" (Olivia \'Liv\' Benson)', 'name': u'Mariska Hargitay', 'context': u'Schauspielerin'}
+158.5228 	EXP 	RatingScale ratingBekannt: reset()
+158.5389 	DATA 	Mouse:  Left button up, pos=(707,94)
+158.5493 	EXP 	imageBekannt: autoDraw = False
+158.5493 	EXP 	ratingBekannt: autoDraw = False
+158.5493 	EXP 	text_6: autoDraw = False
+158.5493 	EXP 	imageBekannt: image = u'./img/MariskaHargitay(Liv)1.jpg'
+158.5493 	EXP 	text_6: text = u'Mariska Hargitay\nSchauspielerin\n"Law & Order: Special Victims Unit" (Olivia \'Liv\' Benson)\n\n\n\nBEKANNT?'
+158.5493 	EXP 	imageBekannt: autoDraw = True
+158.5493 	EXP 	ratingBekannt: autoDraw = True
+158.5493 	EXP 	text_6: autoDraw = True
+161.6486 	DATA 	Mouse: Left button down, pos=(885,214)
+161.6836 	DATA 	Mouse:  Left button up, pos=(885,214)
+161.9650 	DATA 	Mouse: Left button down, pos=(825,184)
+162.0484 	DATA 	Mouse:  Left button up, pos=(825,184)
+162.5815 	DATA 	Mouse: Left button down, pos=(717,104)
+162.5844 	DATA 	RatingScale ratingBekannt: (mouse response) rating=nein
+162.5845 	DATA 	RatingScale ratingBekannt: rating RT=4.046
+162.5845 	DATA 	RatingScale ratingBekannt: history=[(None, 0.0), (u'nein', 3.428), (u'nein', 4.046)]
+162.6146 	EXP 	imageBekannt: autoDraw = False
+162.6146 	EXP 	ratingBekannt: autoDraw = False
+162.6146 	EXP 	text_6: autoDraw = False
+162.6146 	EXP 	text_2: autoDraw = True
+162.6648 	DATA 	Mouse:  Left button up, pos=(717,104)
+165.6356 	EXP 	window1: mouseVisible = True
