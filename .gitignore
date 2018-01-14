@@ -10,6 +10,7 @@ famousCheck/experiment/img/**
 faceEmotion/experiment/stim/**
 faceAttract/experiment/stimuli/**
 
+cortex_sub/**
 manuscript/**
 literature/**
 x/**
