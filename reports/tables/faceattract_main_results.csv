@@ -1,0 +1,3 @@
+,,% correct,percentile,z,t,df,p
+Face evaluation,Attractiveness,76.875,64.379176853,0.368612653092,0.36,45,0.720
+Face evaluation,Likability,43.75,0.0392270384945,-3.35819207569,-3.29,45,0.002

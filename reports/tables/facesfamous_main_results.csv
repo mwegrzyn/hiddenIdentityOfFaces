@@ -1,0 +1,4 @@
+,,% correct,percentile,z,t,df,p
+Face recognition,Famous context,58.2608695652,0.81085793178,-2.40399131337,-2.32,26,0.029
+Face recognition,Famous familiarity,31.3043478261,0.0161268738171,-3.59649201765,-3.47,26,0.002
+Face recognition,Famous naming,13.9130434783,0.836080746532,-2.39277229955,-2.31,26,0.029

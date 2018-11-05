@@ -1,0 +1,4 @@
+,,% correct,percentile,t,df,p
+Face recognition,CMFT 1,100,72,0.59,26,0.561
+Face recognition,CMFT 2,37,0,-3.40,26,0.002
+Face recognition,CMFT 3,33,2,-2.25,26,0.033
