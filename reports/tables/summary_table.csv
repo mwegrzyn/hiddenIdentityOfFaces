@@ -1,0 +1,14 @@
+,Unnamed: 1,% correct,percentile,z,t,df,p
+Face recognition,CFMT 1,100,73,0.61,0.59,26,0.561
+Face recognition,CFMT 2,37,<1,-3.53,-3.4,26,0.002
+Face recognition,CFMT 3,33,1,-2.33,-2.25,26,0.033
+Face recognition,Famous familiarity,31,<1,-3.6,-3.47,26,0.002
+Face recognition,Famous context,58,1,-2.4,-2.32,26,0.029
+Face recognition,Famous naming,14,1,-2.39,-2.31,26,0.029
+Face evaluation,Emotion recognition,88,87,1.15,1.08,16,0.294
+Face evaluation,Eyes test,72,21,-0.81,-0.8,49,0.425
+Face evaluation,Attractiveness,77,64,0.37,0.36,45,0.72
+Face evaluation,Likability,44,<1,-3.36,-3.29,45,0.002
+Visuo-spatial,BLRD-A,33,1,-2.52,-2.52,173,0.013
+Visuo-spatial,BLRD-B,38,2,-2.02,-2.01,173,0.046
+Visuo-spatial,LPS2-Visual,48,16,-1.0,-1.0,128,0.321
