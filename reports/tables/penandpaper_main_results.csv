@@ -1,5 +1,5 @@
 ,,% correct,z,percentile,t,df,p
-Face evaluation,Eyes test,72,-0.812547833982,21,-0.80,49,0.425
-Visuo-spatial,BLRD-A,33,-2.52314334021,1,-2.52,173,0.013
-Visuo-spatial,BLRD-B,38,-2.01703649886,2,-2.01,173,0.046
-Visuo-spatial,LPS2-Visual,48,-0.998284515714,16,-1.00,128,0.321
+Face evaluation,Eyes test,72,-0.813489309359,21,-0.80,49,0.425
+Visuo-spatial,BRLD-A,33,-2.52308609355,1,-2.52,173,0.013
+Visuo-spatial,BRLD-B,38,-2.01551970756,2,-2.01,173,0.046
+Visuo-spatial,LPS2-Visual,48,-1.0005080359,16,-1.00,128,0.321
