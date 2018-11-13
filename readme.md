@@ -1,6 +1,7 @@
 # Data & Code Supplement
 ## The hidden identity of faces: a case of life-long prospagnosia
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1486122.svg)](https://doi.org/10.5281/zenodo.1486122) 
 
 Martin Wegrzyn, Annika Garlichs, Richard W.K. Heß, Friederich G. Woermann & Kirsten Labudda  
 
