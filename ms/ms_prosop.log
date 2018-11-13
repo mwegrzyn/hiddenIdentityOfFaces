@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.10.19)  13 NOV 2018 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.10.19)  13 NOV 2018 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,12 +1061,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
-
- []
-
-(./ms_prosop.bbl
+[9] [10] (./ms_prosop.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -1080,23 +1075,23 @@ Underfull \hbox (badness 1314) in paragraph at lines 253--257
 ) 
 AED: lastpage setting LastPage
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
  (./ms_prosop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 450.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 450.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 448.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
 Package rerunfilecheck Info: File `ms_prosop.out' has not changed.
 (rerunfilecheck)             Checksum: 7CE0E59CA58F5B94ABE8506C03B128C8;214.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 450.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 448.
  ) 
 Here is how much of TeX's memory you used:
  12772 strings out of 493105
  188489 string characters out of 6137071
- 455396 words of memory out of 5000000
+ 455395 words of memory out of 5000000
  15570 multiletter control sequences out of 15000+600000
  85599 words of font info for 333 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1105,7 +1100,7 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on ms_prosop.pdf (13 pages, 7340500 bytes).
+Output written on ms_prosop.pdf (13 pages, 7340493 bytes).
 PDF statistics:
  503 PDF objects out of 1000 (max. 8388607)
  452 compressed objects within 5 object streams
