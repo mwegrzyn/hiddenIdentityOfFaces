@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.10.19)  13 NOV 2018 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.10.19)  13 NOV 2018 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,7 +978,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<../reports/figures/brain_main_figure.png, id=99, 809.1831pt x 404.2302pt>
+<../reports/figures/brain_main_figure.png, id=100, 809.1831pt x 404.2302pt>
 File: ../reports/figures/brain_main_figure.png Graphic file (type png)
 
 <use ../reports/figures/brain_main_figure.png>
@@ -995,14 +995,14 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 Underfull \vbox (badness 7326) has occurred while \output is active []
 
  [2 <../reports/figures/brain_main_figure.png>]
-<../reports/figures/cambridge_main_figure.png, id=171, 897.8343pt x 526.3665pt>
+<../reports/figures/cambridge_main_figure.png, id=176, 897.8343pt x 526.3665pt>
 File: ../reports/figures/cambridge_main_figure.png Graphic file (type png)
 <use ../reports/figures/cambridge_main_figure.png>
 Package pdftex.def Info: ../reports/figures/cambridge_main_figure.png used on i
 nput line 153.
 (pdftex.def)             Requested size: 500.484pt x 293.41391pt.
 
-<../reports/figures/famface_main_figure.png, id=194, 694.0329pt x 608.7543pt>
+<../reports/figures/famface_main_figure.png, id=201, 694.0329pt x 608.7543pt>
 File: ../reports/figures/famface_main_figure.png Graphic file (type png)
 
 <use ../reports/figures/famface_main_figure.png>
@@ -1013,51 +1013,47 @@ ut line 174.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<../reports/figures/filterface_main_figure_mod.png, id=208, 865.7946pt x 385.19
+<../reports/figures/filterface_main_figure_mod.png, id=219, 865.7946pt x 385.19
 91pt>
 File: ../reports/figures/filterface_main_figure_mod.png Graphic file (type png)
 
  <use ../reports/figures/filterface_main_figure_mod.png>
 Package pdftex.def Info: ../reports/figures/filterface_main_figure_mod.png used
- on input line 196.
+ on input line 193.
 (pdftex.def)             Requested size: 500.484pt x 222.66916pt.
  [4 <../reports/figures/cambridge_main_figure.png> <../reports/figures/famface_
 main_figure.png>]
-<../reports/figures/emofaces_main_figure.png, id=238, 408.8073pt x 262.0992pt>
+<../reports/figures/emofaces_main_figure.png, id=251, 408.8073pt x 262.0992pt>
 File: ../reports/figures/emofaces_main_figure.png Graphic file (type png)
 
 <use ../reports/figures/emofaces_main_figure.png>
 Package pdftex.def Info: ../reports/figures/emofaces_main_figure.png used on in
-put line 219.
+put line 214.
 (pdftex.def)             Requested size: 242.41745pt x 155.42104pt.
-
-
-LaTeX Warning: Reference `tab:taskTab' on page 5 undefined on input line 234.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <../reports/figures/filterface_main_figure_mod.png>]
-<../reports/figures/attract_main_figure.png, id=271, 563.9469pt x 608.7543pt>
+<../reports/figures/attract_main_figure.png, id=285, 563.9469pt x 608.7543pt>
 File: ../reports/figures/attract_main_figure.png Graphic file (type png)
 
 <use ../reports/figures/attract_main_figure.png>
 Package pdftex.def Info: ../reports/figures/attract_main_figure.png used on inp
-ut line 242.
+ut line 234.
 (pdftex.def)             Requested size: 242.41745pt x 261.67564pt.
 
-<../reports/figures/overview_heatmap.png, id=292, 708.4869pt x 820.5054pt>
-File: ../reports/figures/overview_heatmap.png Graphic file (type png)
+<../reports/figures/overview_heatmap_mod.png, id=306, 708.4869pt x 820.5054pt>
+File: ../reports/figures/overview_heatmap_mod.png Graphic file (type png)
 
-<use ../reports/figures/overview_heatmap.png>
-Package pdftex.def Info: ../reports/figures/overview_heatmap.png used on input 
-line 290.
+<use ../reports/figures/overview_heatmap_mod.png>
+Package pdftex.def Info: ../reports/figures/overview_heatmap_mod.png used on in
+put line 276.
 (pdftex.def)             Requested size: 242.41745pt x 280.74597pt.
  [6 <../reports/figures/emofaces_main_figure.png> <../reports/figures/attract_m
 ain_figure.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <../reports/figures/overview_heatmap.png>]
+ [7 <../reports/figures/overview_heatmap_mod.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
@@ -1075,35 +1071,31 @@ Underfull \hbox (badness 1314) in paragraph at lines 253--257
 ) 
 AED: lastpage setting LastPage
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
  (./ms_prosop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 448.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
 Package rerunfilecheck Info: File `ms_prosop.out' has not changed.
 (rerunfilecheck)             Checksum: 7CE0E59CA58F5B94ABE8506C03B128C8;214.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 448.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 434.
  ) 
 Here is how much of TeX's memory you used:
- 12772 strings out of 493105
- 188489 string characters out of 6137071
- 455395 words of memory out of 5000000
- 15570 multiletter control sequences out of 15000+600000
+ 12771 strings out of 493105
+ 188497 string characters out of 6137071
+ 455543 words of memory out of 5000000
+ 15569 multiletter control sequences out of 15000+600000
  85599 words of font info for 333 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,51p,3101b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,51p,3101b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on ms_prosop.pdf (13 pages, 7340493 bytes).
+Output written on ms_prosop.pdf (13 pages, 7315646 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
+ 517 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
  100 named destinations out of 1000 (max. 500000)
  45124 words of extra memory for PDF output out of 51595 (max. 10000000)
 

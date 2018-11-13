@@ -1,27 +1,52 @@
-# The hidden identity of faces: a case of life-long prospagnosia
-
-Martin Wegrzyn, Annika Garlichs, Richard Hess, Friederich G. Wörmann & Kirsten Labudda  
-
-
-### Abstract
-
-Not being able to recognize a person's face is a highly debilitating condition from which patients with developmental prosopagnosia (DP) suffer their entire life. Here we describe the case of JB, a 30 year old woman who reports being unable to recognize her parents, husband or herself in the mirror.
-We set out to assess the severity of JB's prosopagnosia using tests with unfamiliar as well as familiar faces and investigated whether an impaired configural processing explains her deficit. To assess the specificity of the impairment, we tested JB's performance when evaluating emotions, intentions, and the attractiveness and likability of faces.
-Detailed testing revealed the absence of any brain injury, typical brain activity patterns for faces, and normal object recognition skills. However, compared to a group of matched controls, JB showed severe deficits in learning new faces, and in recognizing familiar faces when only inner features are available. Her recognition of uncropped faces with blurred features was within the normal range, indicating preserved configural processing when peripheral features are available. JB was also unimpaired when evaluating intentions and emotions in faces. In line with healthy controls, JB rated more average faces as more attractive. However, she was the only one to rate them as less likable, indicating a preference for more distinct and easier to recognize faces.
-Taken together, the results illustrate both, the severity and the specificity of DP in a single case. While DP is a heterogeneous disorder, an inability to integrate the inner features of the face into a whole might be the best explanation for the difficulties many of the patients experience.
+# Data & Code Supplement
+## The hidden identity of faces: a case of life-long prospagnosia
 
 
-### About
+Martin Wegrzyn, Annika Garlichs, Richard W.K. Heß, Friederich G. Woermann & Kirsten Labudda  
 
-This is a repository containing the full data and code of our paper on developmental prospagnosia.
 
 ### Table of Contents
 
-- the experiments and data
-  - [CMFT](CMFT/experiment)
-  - [face attractivenss](faceAttract/experiment)
+- code to run the experiments
+  - [Cambridge Face Memory Test](CFMT/experiment)
+  - [famous faces](famousInner/experiment)  
+  - [famous filtered faces](famousFiltered/experiment)
+  - [familiarity with famous persons test](famousCheck/experiment)   
+  - [emotion expressions](faceEmotion/experiment)  
+
+- the data
+  - [fMRI localizer result maps](brainImaging/fsavg_maps) (unthresholded t-Maps in fsaverage space)
+  - [Cambridge Face Memory Test](CFMT/experiment/data)
+  - [famous faces](famousInner/experiment/data)  
+  - [famous filtered faces](famousFiltered/experiment/data)
+  - [familiarity with famous persons test](famousCheck/experiment/data)   
+  - [emotion expressions](faceEmotion/experiment/data)  
+  - [face attractivenss and likability](faceAttract/experiment/data)  
+
 - the analysis code
-  - [Analysis of CMFT](notebooks/cambridgeFaceMemory.ipynb)
+  - [fMRI Freesurfer Analysis](brainImaging/notebooks/freesurferAnalysisNative.ipynb)
+  - [fMRI Freesufer Visualisation](brainImaging/notebooks/plot_native_result.ipynb)
+  - [fMRI All Analyses](brainImaging/notebooks)
+  - [Cambridge Face Memory Test](notebooks/cambridgeFaceMemory.ipynb)
+  - [famous faces: familiarity+context](notebooks/famousFaces_002_innerChoice.ipynb)
+  - [famous faces: naming](notebooks/famousFaces_001_innerName_analysis.ipynb)
+  - [famous filtered faces: familiarity+context (pt.1)](notebooks/famousFaces_003a_filteredChoiceLog.ipynb)
+  - [famous filtered faces: familiarity+context (pt.2)](notebooks/famousFaces_003b_filteredChoice.ipynb)
+  - [famous filtered faces: naming ](notebooks/famousFaces_004_filteredName.ipynb)  
+  - [familiarity with famous persons check](notebooks/famousFaces_000_checkingForFamiliarity.ipynb)
+  - [famous faces: result summary ](notebooks/famousFaces_005_resultSummary.ipynb)
+  - [emotion expressions](notebooks/faceEmotion.ipynb) 
+  - [face attractiveness and likability: stimulus generation](notebooks/faceAttract_001_stimulusPreparation.ipynb)
+  - [face attractiveness and likability: data analysis](notebooks/faceAttract_002_analysis.ipynb)
+  - [pen and paper tests](notebooks/otherTests_getNormativeScores.ipynb)
+  - [collecting all results](notebooks/main_results.ipynb)  
+
+- in-house written modules
+  - [compare individual with sample](modules/case_stats)  
+
+- the results
+  - [tables](reports/tables)
+  - [figures](reports/figures)  
 
 ### Requirements
 
@@ -32,7 +57,7 @@ To run all the scipts, you can create a virtual environment, by first installing
 
 
 ```shell
-pip install  virtualenv
+pip install virtualenv
 ```
 Then you can create a virtual environment in the folder into which you cloned this repository
 
@@ -40,7 +65,7 @@ Then you can create a virtual environment in the folder into which you cloned th
 virtualenv venv
 ```
 
-and then install all modules using pip
+and then install all modules using pip and the requirements file provided in this repository
 
 
 ```shell
@@ -52,3 +77,4 @@ The main experiments were written and rendered with [PsychoPy](http://psychopy.o
 ### Contact
 
 For questions or comments please write to [martin.wegrzyn@uni-bielefeld.de](mailto:martin.wegrzyn@uni-bielefeld.de)
+
