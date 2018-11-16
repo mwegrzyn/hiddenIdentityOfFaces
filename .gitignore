@@ -8,7 +8,7 @@ famousFiltered/experiment/img/**
 famousInner/experiment/greyInner/**
 famousCheck/experiment/img/**
 faceEmotion/experiment/stim/**
-faceAttract/experiment/stimuli/**
+#faceAttract/experiment/stimuli/** # these stimuli are licensed under CC-BY so we can share them
 
 manuscript/**
 literature/**
