@@ -1,10 +1,19 @@
-# Data & Code Supplement
-## The hidden identity of faces: a case of life-long prospagnosia
+# The hidden identity of faces: a case of lifelong prosopagnosia
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1486122.svg)](https://doi.org/10.5281/zenodo.1486122) 
+[![PUB](https://img.shields.io/badge/PUB-10.1186%2Fs40359--019--0278--z-yellow.svg)](http://dx.doi.org/10.1186/s40359-019-0278-z) 
+[![PREPRINT](https://img.shields.io/badge/PREPRINT-10.31219%2Fosf.io%2Fdv7am-red.svg)](https://doi.org/10.31219/osf.io/dv7am) 
+[![ZENODO](https://zenodo.org/badge/DOI/10.5281/zenodo.1486122.svg)](https://doi.org/10.5281/zenodo.1486122) 
+[![NEURO](https://img.shields.io/badge/NEURO-collections%2F4017-green.svg)](https://neurovault.org/collections/4017/)  
 
-Martin Wegrzyn, Annika Garlichs, Richard W.K. Heß, Friederich G. Woermann & Kirsten Labudda  
 
+
+Martin Wegrzyn, Annika Garlichs, Richard W.K. Heß, Friedrich G. Woermann & Kirsten Labudda  
+
+### Abstract
+
+Not being able to recognize a person's face is a highly debilitating condition from which people with developmental prosopagnosia (DP) suffer their entire life. Here we describe the case of J, a 30 year old woman who reports being unable to recognize her parents, her husband, or herself in the mirror.  
+We set out to assess the severity of J's prosopagnosia using tests with unfamiliar as well as familiar faces and investigated whether impaired configural processing explains her deficit. To assess the specificity of the impairment, we tested J's performance when evaluating emotions, intentions, and the attractiveness and likability of faces. Detailed testing revealed typical brain activity patterns for faces and normal object recognition skills, and no evidence of any brain injury. However, compared to a group of matched controls, J showed severe deficits in learning new faces, and in recognizing familiar faces when only inner features were available. Her recognition of uncropped faces with blurred features was within the normal range, indicating preserved configural processing when peripheral features are available. J was also unimpaired when evaluating intentions and emotions in faces. In line with healthy controls, J rated more average faces as more attractive. However, she was the only one to rate them as less likable, indicating a preference for more distinctive and easier to recognize faces.  
+Taken together, the results illustrate both the severity and the specificity of DP in a single case. While DP is a heterogeneous disorder, an inability to integrate the inner features of the face into a whole might be the best explanation for the difficulties many individuals with prosopagnosia experience.
 
 ### Table of Contents
 
